@@ -31,7 +31,7 @@
     "path": "folders/Objects/Menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_menuBox_Opcoes",
+  "name": "btn_menuBox_Sair",
   "tags": [],
   "resourceType": "GMObject",
 }
