@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_quiz",
-    "path": "sprites/spr_quiz/spr_quiz.yy",
+    "name": "spr_quiz_opcao",
+    "path": "sprites/spr_quiz_opcao/spr_quiz_opcao.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +30,7 @@
     "path": "folders/Objects/Mini-Games/Quiz.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_quiz",
+  "name": "obj_quiz_opcao",
   "tags": [],
   "resourceType": "GMObject",
 }

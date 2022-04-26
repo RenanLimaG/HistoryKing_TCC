@@ -1,12 +1,9 @@
 {
-  "spriteId": {
-    "name": "spr_quiz",
-    "path": "sprites/spr_quiz/spr_quiz.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -20,15 +17,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Quiz",
-    "path": "folders/Objects/Mini-Games/Quiz.yy",
+    "name": "Tabuleiro",
+    "path": "folders/Objects/Tabuleiro.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_quiz",
+  "name": "obj_control_tabuleiro",
   "tags": [],
   "resourceType": "GMObject",
 }
