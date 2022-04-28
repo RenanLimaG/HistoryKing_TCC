@@ -47,6 +47,7 @@
     {"id":{"name":"scribble_anim_wobble","path":"scripts/scribble_anim_wobble/scribble_anim_wobble.yy",},"order":9,},
     {"id":{"name":"__scribble_gen_3_devanagari","path":"scripts/__scribble_gen_3_devanagari/__scribble_gen_3_devanagari.yy",},"order":3,},
     {"id":{"name":"btn_voltar","path":"objects/btn_voltar/btn_voltar.yy",},"order":0,},
+    {"id":{"name":"obj_quiz_resp","path":"objects/obj_quiz_resp/obj_quiz_resp.yy",},"order":4,},
     {"id":{"name":"__scribble_gen_5_finalize_bidi","path":"scripts/__scribble_gen_5_finalize_bidi/__scribble_gen_5_finalize_bidi.yy",},"order":5,},
     {"id":{"name":"obj_quiz_opcao","path":"objects/obj_quiz_opcao/obj_quiz_opcao.yy",},"order":2,},
     {"id":{"name":"spr_brasil","path":"sprites/spr_brasil/spr_brasil.yy",},"order":0,},
