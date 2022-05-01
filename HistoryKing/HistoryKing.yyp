@@ -37,6 +37,7 @@
     {"id":{"name":"scribble_flush_everything","path":"scripts/scribble_flush_everything/scribble_flush_everything.yy",},"order":5,},
     {"id":{"name":"__scribble_gen_8_position_glyphs","path":"scripts/__scribble_gen_8_position_glyphs/__scribble_gen_8_position_glyphs.yy",},"order":8,},
     {"id":{"name":"rm_quiz","path":"rooms/rm_quiz/rm_quiz.yy",},"order":4,},
+    {"id":{"name":"teste","path":"sprites/teste/teste.yy",},"order":6,},
     {"id":{"name":"spr_menuBox_button","path":"sprites/spr_menuBox_button/spr_menuBox_button.yy",},"order":1,},
     {"id":{"name":"__scribble_gen_9_write_vbuffs","path":"scripts/__scribble_gen_9_write_vbuffs/__scribble_gen_9_write_vbuffs.yy",},"order":9,},
     {"id":{"name":"scribble_super_clear","path":"scripts/scribble_super_clear/scribble_super_clear.yy",},"order":0,},

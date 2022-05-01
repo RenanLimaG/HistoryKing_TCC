@@ -35,9 +35,9 @@ for(var j = 0;j < 4;j++){
 }
 
 //Criando os botões para as opções, e guardando eles em variaveis
-var opcao1 = instance_create_layer(640,385,"Instances",obj_quiz_opcao);
-var opcao2 = instance_create_layer(640,461,"Instances",obj_quiz_opcao);
-var opcao3 = instance_create_layer(640,536,"Instances",obj_quiz_opcao);
-var opcao4 = instance_create_layer(640,612,"Instances",obj_quiz_opcao);
+instance_create_layer(640,385,"Instances",obj_quiz_opcao);
+instance_create_layer(640,461,"Instances",obj_quiz_opcao);
+instance_create_layer(640,536,"Instances",obj_quiz_opcao);
+instance_create_layer(640,612,"Instances",obj_quiz_opcao);
 
 

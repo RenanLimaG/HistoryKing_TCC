@@ -14,11 +14,25 @@ pos_alternativas[2] = [640,536];
 text_alternativas[3].draw(640,612);
 pos_alternativas[3] = [640,612];
 
+
+//Criando obj no lugar exato da opção correta
 for(var i = 0;i < 4;i++){
 	
 	if(text_alternativas[i].get_text() == resposta){
-		instance_create_layer(pos_alternativas[i][0], pos_alternativas[i][1],
+		var obj_resp = instance_create_layer(pos_alternativas[i][0], pos_alternativas[i][1],
 		"Instances", obj_quiz_resp);
+	}
+	
+}
+
+//Criando o evento de clique na opção correta
+with(obj_resp)
+{
+	if mouse_check_button_pressed(mb_left)
+	{
+		if collision_point(mouse_x, mouse_y, obj_resp, true, false){
+			show_debug_message("Resposta correta!");
+		}
 	}
 	
 }
