@@ -1,0 +1,25 @@
+**DOCUMENTO PARA ANOTAR MUDANÇAS NO PROJETO**
+
+20/04 - 01/05 (Renan Lima): Eu comecei a trabalhar com algumas das telas conforme protótipo no Figma. 
+Todas as telas serão salvas na pasta "ROOMS".
+Comecei a tentar trabalhar na mecânica envolvendo movimentação no tabuleiro, mas deixei pausado para
+focar mais no mini-game de quiz, que julguei ser menos complicado. Segue link da playlist de vídeos que eu estava
+usando como referência para montar o tabuleiro:
+
+https://www.youtube.com/playlist?list=PLDhafzak_t6qKbFXwAwBiATuhGj5YV65N
+
+Para começar a montar o quiz, eu não estava utilizando nenhuma playlist como base por enquanto, mas provalvemente
+quando formos salvar as perguntas em bancos de dados, estava pensando em utilizar esses vídeos:
+
+https://www.youtube.com/playlist?list=PLoOCiP3Ezxf-xssQdDkcpCUkcgeULJ9-Z
+
+Alias, por favor peguem para aprender sobre "State Machines", que provavelmente vamos utilzar na hora de 
+trocar entre os turnos dos jogadores. Esse vídeo dá uma breve explicação inicial de como funcionam:
+
+https://www.youtube.com/watch?v=yfFzz9mZkU4&list=PLX53_FtHzPQe9YxPeQSH9v3NsgpIRZmoK&index=5
+
+Por fim, nada está terminado até o momento. Esse mês vou terminar o quiz, então se puderem vejam o que 
+vocês conseguem fazer em relação a movimentação via tabuleiro. Temos que entregar alguma coisa até junho,
+o que é uma merda, mas vamos tentar.
+Leiam os comentários dentro dos objetos, e se não entenderem alguma coisa por favor me chamar no ZAP.
+

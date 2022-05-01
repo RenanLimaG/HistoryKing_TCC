@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Evento de clique nas opções
 // You can write your code in this editor
 
 switch(obj_quiz_resp.get_height)

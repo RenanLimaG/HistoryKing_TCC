@@ -11,6 +11,7 @@
     {"id":{"name":"scribble_font_add","path":"scripts/scribble_font_add/scribble_font_add.yy",},"order":0,},
     {"id":{"name":"scribble_anim_pulse","path":"scripts/scribble_anim_pulse/scribble_anim_pulse.yy",},"order":3,},
     {"id":{"name":"__scribble_gen_7_build_pages","path":"scripts/__scribble_gen_7_build_pages/__scribble_gen_7_build_pages.yy",},"order":7,},
+    {"id":{"name":"doc_inicial","path":"notes/doc_inicial/doc_inicial.yy",},"order":0,},
     {"id":{"name":"cur_player","path":"objects/cur_player/cur_player.yy",},"order":11,},
     {"id":{"name":"__shd_scribble_bake_outline_8dir_2px","path":"shaders/__shd_scribble_bake_outline_8dir_2px/__shd_scribble_bake_outline_8dir_2px.yy",},"order":3,},
     {"id":{"name":"rm_mapaBrasil","path":"rooms/rm_mapaBrasil/rm_mapaBrasil.yy",},"order":3,},

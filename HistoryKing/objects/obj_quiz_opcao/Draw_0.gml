@@ -1,4 +1,6 @@
-/// @description Insert description here
+/// @description Efeito de "bordas de destaque"
+
+//Efeito só acontece quando o mouse passar por cima do objeto
 if (instance_position(mouse_x,mouse_y,self))
 {
 	

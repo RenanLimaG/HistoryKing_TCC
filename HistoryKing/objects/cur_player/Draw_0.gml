@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description OBJ parente para identificar o jogador atual
 if (instance_position(mouse_x,mouse_y,self))
 {
 	

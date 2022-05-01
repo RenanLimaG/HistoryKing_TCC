@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Desenhando os textos e os botões
 // You can write your code in this editor
 text_pergunta.draw(640,240);
 

@@ -1,3 +1,6 @@
+///Script que guarda todas as perguntas do quiz em matrizes
+// Mudar para Banco de dados no futuro
+
 function scr_quiz_questions(arrayX){
 	
 	arrayX[0] =	["Aqui estará o espaço da Pergunta 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing",
