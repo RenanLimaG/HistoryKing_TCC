@@ -25,14 +25,4 @@ for(var i = 0;i < 4;i++){
 	
 }
 
-//Criando o evento de clique na opção correta
-with(obj_resp)
-{
-	if mouse_check_button_pressed(mb_left)
-	{
-		if collision_point(mouse_x, mouse_y, obj_resp, true, false){
-			show_debug_message("Resposta correta!");
-		}
-	}
-	
-}
+scr_quiz_resposta(obj_resp);
