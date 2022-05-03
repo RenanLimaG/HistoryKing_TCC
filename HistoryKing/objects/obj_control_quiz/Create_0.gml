@@ -40,4 +40,10 @@ instance_create_layer(640,461,"Instances",obj_quiz_opcao);
 instance_create_layer(640,536,"Instances",obj_quiz_opcao);
 instance_create_layer(640,612,"Instances",obj_quiz_opcao);
 
+btn_tabu = instance_create_layer(1000,620,"Instances",btn_padrao);
 
+textScore = scr_text_btn(global.scoreP1);
+
+with(btn_tabu){
+	image_xscale = 6;
+}

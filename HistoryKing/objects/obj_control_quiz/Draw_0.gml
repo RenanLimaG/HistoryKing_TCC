@@ -19,10 +19,24 @@ pos_alternativas[3] = [640,612];
 for(var i = 0;i < 4;i++){
 	
 	if(text_alternativas[i].get_text() == resposta){
-		var obj_resp = instance_create_layer(pos_alternativas[i][0], pos_alternativas[i][1],
+		obj_resp = instance_create_layer(pos_alternativas[i][0], pos_alternativas[i][1],
 		"Instances", obj_quiz_resp);
 	}
 	
 }
 
-scr_quiz_resposta(obj_resp);
+
+with(btn_tabu){
+	textBtn = "Mapa";
+    text = scr_text_btn(textBtn);
+	
+	draw_self();
+    text.draw(x,y);
+	
+	if mouse_check_button_pressed(mb_left){
+        if collision_point(mouse_x, mouse_y, self, true, false){
+			room_goto(rm_mapaBrasil);
+		}
+
+	}
+}
