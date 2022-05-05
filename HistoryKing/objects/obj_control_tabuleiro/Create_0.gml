@@ -1,5 +1,7 @@
 /// @description OBJ para controle de eventos
 
+room_persistent = true;
+
 window_set_size(1280,720);
 
 game_state = state.player1;

@@ -21,6 +21,7 @@ for(var i = 0;i < 4;i++){
 	if(text_alternativas[i].get_text() == resposta){
 		obj_resp = instance_create_layer(pos_alternativas[i][0], pos_alternativas[i][1],
 		"Instances", obj_quiz_resp);
+		instance_destroy(obj_alternativas[i]);
 	}
 	
 }
