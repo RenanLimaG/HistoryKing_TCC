@@ -1,14 +1,11 @@
 /// @description OBJ para controlar eventos
 // You can write your code in this editor
-randomize();
-
 get = http_get("http://localhost:8080/perguntas");
 global.loading = true;
 
 //Criando o Array para as perguntas
 /*perguntas_brasil_precolo[0][0] = noone;
 scr_quiz_questions(perguntas_brasil_precolo);*/
-
 if !ds_exists(global.lst_ordem, ds_type_list){
 			global.lst_ordem = ds_list_create();
 			for(var temp = 0;temp < 6;temp++){
@@ -21,6 +18,10 @@ if !ds_exists(global.lst_ordem, ds_type_list){
         //as variaveis conforme o item escolhido
         ordem = ds_list_find_value(global.lst_ordem, 0);
 		ds_list_delete(global.lst_ordem, 0);
+		
+		var str = ds_list_write(global.lst_ordem);
+		show_debug_message(str);
+
 
 //Criando os botões para as opções, e guardando eles em variaveis
 obj_alternativas[0] = instance_create_layer(640,385,"Instances",obj_quiz_opcao);

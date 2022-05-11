@@ -47,7 +47,7 @@ app.get('/perguntas/', (req, res) => {
                         Periodo,
                         Enunciado,
                         Opcao_A,
-                        Opcao_B
+                        Opcao_B,
                         Opcao_C,
                         Opcao_D,
                         Resposta
@@ -68,7 +68,7 @@ app.get('/perguntas/:id', (req, res) => {
                         Periodo,
                         Enunciado,
                         Opcao_A,
-                        Opcao_B
+                        Opcao_B,
                         Opcao_C,
                         Opcao_D,
                         Resposta
