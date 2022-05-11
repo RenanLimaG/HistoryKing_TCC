@@ -1,47 +1,26 @@
 /// @description OBJ para controlar eventos
 // You can write your code in this editor
+randomize();
+
+get = http_get("http://localhost:8080/perguntas");
+global.loading = true;
 
 //Criando o Array para as perguntas
-perguntas_brasil_precolo[0][0] = noone;
-scr_quiz_questions(perguntas_brasil_precolo);
-
-randomise(); // Randomizando seed
+/*perguntas_brasil_precolo[0][0] = noone;
+scr_quiz_questions(perguntas_brasil_precolo);*/
 
 if !ds_exists(global.lst_ordem, ds_type_list){
-	global.lst_ordem = ds_list_create();
-	for(var temp = 0;temp < 6;temp++){
-		ds_list_add(global.lst_ordem, temp);
-	}
-	ds_list_shuffle(global.lst_ordem);
-}
+			global.lst_ordem = ds_list_create();
+			for(var temp = 0;temp < 6;temp++){
+				ds_list_add(global.lst_ordem, temp);
+		    }
+		    ds_list_shuffle(global.lst_ordem);
+		    }
 
-//Procediemento de escolher um item aleatória do array de perguntas, e definindo 
-//as variaveis conforme o item escolhido
-var i = ds_list_find_value(global.lst_ordem, 0);
-ds_list_delete(global.lst_ordem, 0);
-atual_pergunta = perguntas_brasil_precolo[i][0];
-resposta_num = perguntas_brasil_precolo[i][5];
-resposta = perguntas_brasil_precolo[i][resposta_num];
-
-
-//Procedimento padrão para criar textos com Scribble
-//Ver em: https://www.jujuadams.com/Scribble/#/latest/
-text_pergunta = scribble(atual_pergunta);
-text_pergunta.starting_format("font_padrao_quiz", c_black);
-text_pergunta.align(fa_center,fa_middle);
-text_pergunta.wrap(440);
-
-
-//Buscando as alternativas do item do array de perguntas e escrevendo elas na
-//tela com o Scribble
-for(var j = 0;j < 4;j++){
-	
-	atual_alternativa = perguntas_brasil_precolo[i][j+1];
-	text_alternativas[j] = scribble(atual_alternativa);
-	text_alternativas[j].starting_format("font_padrao", c_black);
-	text_alternativas[j].align(fa_center,fa_middle);
-	
-}
+        //Procediemento de escolher um item aleatória do array de perguntas, e definindo 
+        //as variaveis conforme o item escolhido
+        ordem = ds_list_find_value(global.lst_ordem, 0);
+		ds_list_delete(global.lst_ordem, 0);
 
 //Criando os botões para as opções, e guardando eles em variaveis
 obj_alternativas[0] = instance_create_layer(640,385,"Instances",obj_quiz_opcao);
