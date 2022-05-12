@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"btn_menuBox_Entrar","path":"objects/btn_menuBox_Entrar/btn_menuBox_Entrar.yy",},"order":1,},
     {"id":{"name":"scribble_font_combine","path":"scripts/scribble_font_combine/scribble_font_combine.yy",},"order":5,},
+    {"id":{"name":"spr_player2","path":"sprites/spr_player2/spr_player2.yy",},"order":1,},
     {"id":{"name":"__shd_scribble","path":"shaders/__shd_scribble/__shd_scribble.yy",},"order":0,},
     {"id":{"name":"scribble_typist","path":"scripts/scribble_typist/scribble_typist.yy",},"order":8,},
     {"id":{"name":"font_padrao_menu","path":"fonts/font_padrao_menu/font_padrao_menu.yy",},"order":1,},
@@ -45,7 +46,6 @@
     {"id":{"name":"scribble_typists_add_event","path":"scripts/scribble_typists_add_event/scribble_typists_add_event.yy",},"order":9,},
     {"id":{"name":"__scribble_class_event","path":"scripts/__scribble_class_event/__scribble_class_event.yy",},"order":1,},
     {"id":{"name":"scribble_msdf_thickness_offset","path":"scripts/scribble_msdf_thickness_offset/scribble_msdf_thickness_offset.yy",},"order":7,},
-    {"id":{"name":"scr_player_turn","path":"scripts/scr_player_turn/scr_player_turn.yy",},"order":1,},
     {"id":{"name":"scribble_font_add_all","path":"scripts/scribble_font_add_all/scribble_font_add_all.yy",},"order":1,},
     {"id":{"name":"scr_quiz_resposta","path":"scripts/scr_quiz_resposta/scr_quiz_resposta.yy",},"order":3,},
     {"id":{"name":"scribble_anim_wobble","path":"scripts/scribble_anim_wobble/scribble_anim_wobble.yy",},"order":9,},
@@ -90,6 +90,7 @@
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":1,},
     {"id":{"name":"scr_quiz_questions","path":"scripts/scr_quiz_questions/scr_quiz_questions.yy",},"order":2,},
     {"id":{"name":"__scribble_class_model","path":"scripts/__scribble_class_model/__scribble_class_model.yy",},"order":3,},
+    {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"order":2,},
     {"id":{"name":"obj_control_quiz","path":"objects/obj_control_quiz/obj_control_quiz.yy",},"order":1,},
     {"id":{"name":"__scribble_gen_1_model_limits_and_bezier_curves","path":"scripts/__scribble_gen_1_model_limits_and_bezier_curves/__scribble_gen_1_model_limits_and_bezier_curves.yy",},"order":0,},
     {"id":{"name":"__scribble_gc_collect","path":"scripts/__scribble_gc_collect/__scribble_gc_collect.yy",},"order":9,},
