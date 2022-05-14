@@ -3,6 +3,8 @@
 get = http_get("http://localhost:8080/perguntas");
 global.loading = true;
 
+global.turn = turnState.turn_player1;
+
 //Criando o Array para as perguntas
 /*perguntas_brasil_precolo[0][0] = noone;
 scr_quiz_questions(perguntas_brasil_precolo);*/
@@ -31,7 +33,8 @@ obj_alternativas[3] =instance_create_layer(640,612,"Instances",obj_quiz_opcao);
 
 btn_tabu = instance_create_layer(1000,620,"Instances",btn_padrao);
 
-textScore = scr_text_btn(global.scoreP1);
+textScore1 = scr_text_btn(global.scoreP1);
+textScore2 = scr_text_btn(global.scoreP2);
 
 with(btn_tabu){
 	image_xscale = 6;
