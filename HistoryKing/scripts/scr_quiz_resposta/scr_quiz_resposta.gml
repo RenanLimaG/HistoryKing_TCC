@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_quiz_resposta(obj_resp, obj_alter, text1, text2){
+function scr_quiz_resposta(obj_resp, obj_alter){
 
 switch(global.turn){
 
@@ -35,18 +35,16 @@ with(obj_resp)
 	{
 		if collision_point(mouse_x, mouse_y, obj_resp, true, false){
 			global.scoreP2 += 15;
-			//show_debug_message(global.scoreP1);
-			text1.overwrite(string(global.scoreP1));
-            text2.overwrite(string(global.scoreP2));
+			instance_destroy(obj_score);
+			instance_create_layer(32,32,"Instances", obj_score);
             global.quizLoop++;
             room_restart();
 		}
 		for(var i = 0;i < 4;i++){
 			if collision_point(mouse_x, mouse_y, obj_alter[i], true, false){
 			global.scoreP2 -= 5;
-			//show_debug_message(global.scoreP1); 
-			text1.overwrite(string(global.scoreP1));
-            text2.overwrite(string(global.scoreP2));
+			instance_destroy(obj_score);
+			instance_create_layer(32,32,"Instances", obj_score);
             global.quizLoop++;
             room_restart();
 			}

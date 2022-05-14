@@ -25,19 +25,3 @@ for(var i = 0;i < 4;i++){
 	}
 	
 }
-
-
-with(btn_tabu){
-	textBtn = "Mapa";
-    text = scr_text_btn(textBtn);
-	
-	draw_self();
-    text.draw(x,y);
-	
-	if mouse_check_button_pressed(mb_left){
-        if collision_point(mouse_x, mouse_y, self, true, false){
-			room_goto(rm_mapaBrasil);
-		}
-
-	}
-}

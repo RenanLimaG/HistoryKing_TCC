@@ -15,8 +15,5 @@ btn_troca = instance_create_layer(1100,500,"Instances",btn_padrao);
 global.scoreP1 = 0;
 global.scoreP2 = 0;
 
-textScore1 = scr_text_btn(global.scoreP1);
-textScore2 = scr_text_btn(global.scoreP2);
-
 
 
