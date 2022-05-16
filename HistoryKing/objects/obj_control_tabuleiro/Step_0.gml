@@ -18,7 +18,15 @@ switch(global.game_state){
 	break;
 	
 	case state.startTurn : 
-	scr_movement(player1, position);
+	switch(global.turn){
+		case turnState.turn_player1:
+		scr_movement(player1, position);
+		break;
+		
+		case turnState.turn_player2:
+		scr_movement(player2, position);
+		break;
+	}
 	
 	break;
 	

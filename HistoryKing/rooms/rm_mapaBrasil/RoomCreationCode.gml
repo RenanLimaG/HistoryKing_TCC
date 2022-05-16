@@ -2,7 +2,7 @@ enum state
 {
 	init,
 	startTurn,
-	process,
+	mini_game,
 	checkFinish,
 	endTurn,
 	endGame
