@@ -14,6 +14,13 @@ switch(global.game_state){
 	position[7] = instance_create_layer(640,495,"Positions",obj_position);
 	player1 = instance_create_layer(786,314,"Instances",obj_player1);
 	player2 = instance_create_layer(819,314,"Instances",obj_player2);
+	if(global.num_jogs == 3){
+		player3 = instance_create_layer(802,300,"Instances",obj_player3);
+	}
+	else if(global.num_jogs == 4){
+		player3 = instance_create_layer(802,300,"Instances",obj_player3);
+		player4 = instance_create_layer(802,333,"Instances",obj_player4);
+	}
 	global.game_state = state.startTurn;
 	break;
 	
@@ -25,6 +32,14 @@ switch(global.game_state){
 		
 		case turnState.turn_player2:
 		scr_movement(player2, position);
+		break;
+		
+		case turnState.turn_player3:
+		scr_movement(player3, position);
+		break;
+		
+		case turnState.turn_player4:
+		scr_movement(player4, position);
 		break;
 	}
 	

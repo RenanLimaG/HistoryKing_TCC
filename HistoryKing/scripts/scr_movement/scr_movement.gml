@@ -9,7 +9,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 1;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -20,7 +47,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 3;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -31,7 +85,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 4;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -45,7 +126,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 0;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -56,7 +164,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 2;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -67,7 +202,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 3;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -81,7 +243,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 1;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -92,7 +281,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 3;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -106,7 +322,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 0;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -117,7 +360,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 1;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -128,7 +398,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 2;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -139,7 +436,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 4;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -150,7 +474,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 5;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -164,7 +515,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 0;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -175,7 +553,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 3;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -186,7 +591,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 5;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -197,7 +629,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 6;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -211,7 +670,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 3;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -222,7 +708,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 4;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -233,7 +746,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 6;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -244,7 +784,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 7;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -258,7 +825,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 4;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -269,7 +863,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 5;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -280,7 +901,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 7;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -294,7 +942,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 5;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -305,7 +980,34 @@ function scr_movement(player, position){
 					if collision_point(mouse_x, mouse_y, self, true, false){
 						with(player){
 							pos = 6;
-							global.turn ++;
+							switch(global.turn){
+								case 0:
+								global.turn = 1;
+								break;
+								
+								case 1:
+								if(global.num_jogs == 3 || global.num_jogs == 4){
+									global.turn = 2;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 2:
+								if(global.num_jogs == 4){
+									global.turn = 3;
+								}
+								else{
+									global.turn = 0;
+								}
+								break;
+								
+								case 3:
+								global.turn = 0;
+								break;
+								
+							}
 						}
 						mouse_clear(mb_any);
 					}

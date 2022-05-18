@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player1",
-    "path": "sprites/spr_player1/spr_player1.yy",
+    "name": "spr_player3",
+    "path": "sprites/spr_player3/spr_player3.yy",
   },
   "solid": false,
   "visible": true,
@@ -37,7 +37,7 @@
     "path": "folders/Objects/Tabuleiro.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_player1",
+  "name": "obj_player3",
   "tags": [],
   "resourceType": "GMObject",
 }

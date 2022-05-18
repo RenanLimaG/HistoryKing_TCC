@@ -26,6 +26,14 @@ with(btn_troca){
 			if(global.turn == turnState.turn_player1){
 				global.turn = turnState.turn_player2;
 			}
+			else if(global.turn == turnState.turn_player2 && 
+			(global.num_jogs == 3 || global.num_jogs == 4)){
+				global.turn = turnState.turn_player3;
+			}
+			else if(global.turn == turnState.turn_player3 && 
+			global.num_jogs == 4){
+				global.turn = turnState.turn_player4;
+			}
 			else{
 				global.turn = turnState.turn_player1;
 			}
