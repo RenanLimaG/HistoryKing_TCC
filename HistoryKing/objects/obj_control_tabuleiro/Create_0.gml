@@ -14,6 +14,14 @@ btn_troca = instance_create_layer(1100,500,"Instances",btn_padrao);
 
 global.scoreP1 = 0;
 global.scoreP2 = 0;
+if(global.num_jogs == 3){
+	global.scoreP3 = 0;
+}
+else if(global.num_jogs == 4){
+	global.scoreP3 = 0;
+	global.scoreP4 = 0;
+}
+
 
 
 
