@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"8a5e8734-d19f-4896-8016-541af7ffd5be","path":"sprites/spr_quiz/spr_quiz.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"8a5e8734-d19f-4896-8016-541af7ffd5be","path":"sprites/spr_quiz/spr_quiz.yy",},"LayerId":{"name":"5709a45e-0d40-426c-9872-c89b6e4c6a26","path":"sprites/spr_quiz/spr_quiz.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"8a5e8734-d19f-4896-8016-541af7ffd5be","path":"sprites/spr_quiz/spr_quiz.yy",},"LayerId":{"name":"53b2ff6c-ba04-4a11-8220-1e7a13251bb9","path":"sprites/spr_quiz/spr_quiz.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_quiz","path":"sprites/spr_quiz/spr_quiz.yy",},"resourceVersion":"1.0","name":"8a5e8734-d19f-4896-8016-541af7ffd5be","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -65,6 +66,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"53b2ff6c-ba04-4a11-8220-1e7a13251bb9","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5709a45e-0d40-426c-9872-c89b6e4c6a26","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
