@@ -27,12 +27,34 @@ with(obj_resp)
 		
 	}
 }
+break;
 
 case turnState.turn_player2 :
 with(obj_resp)
 {
-	if mouse_check_button_pressed(mb_left)
-	{
+	switch(global.num_jogs){
+		case 3:
+		case 4:
+		if mouse_check_button_pressed(mb_left)
+		{
+		if collision_point(mouse_x, mouse_y, obj_resp, true, false){
+			global.scoreP2 += 15;
+			global.turn = turnState.turn_player3;
+			mouse_clear(mb_any);
+		}
+		for(var i = 0;i < 4;i++){
+			if collision_point(mouse_x, mouse_y, obj_alter[i], true, false){
+			global.scoreP2 -= 5;
+			global.turn = turnState.turn_player3;
+			mouse_clear(mb_any);
+			}
+			}
+		}
+		break;
+		
+		default:
+		if mouse_check_button_pressed(mb_left)
+		{
 		if collision_point(mouse_x, mouse_y, obj_resp, true, false){
 			global.scoreP2 += 15;
 			instance_destroy(obj_score);
@@ -48,10 +70,84 @@ with(obj_resp)
             global.quizLoop++;
             room_restart();
 			}
+			}
 		}
-		
+		break;
 	}
-
 }
+break;
+	
+case turnState.turn_player3 :
+with(obj_resp)
+{
+	switch(global.num_jogs){
+		case 4:
+		if mouse_check_button_pressed(mb_left)
+		{
+		if collision_point(mouse_x, mouse_y, obj_resp, true, false){
+			global.scoreP3 += 15;
+			global.turn = turnState.turn_player4;
+			mouse_clear(mb_any);
+		}
+		for(var i = 0;i < 4;i++){
+			if collision_point(mouse_x, mouse_y, obj_alter[i], true, false){
+			global.scoreP3 -= 5;
+			global.turn = turnState.turn_player4;
+			mouse_clear(mb_any);
+			}
+			}
+		}
+		break;
+		
+		default:
+		if mouse_check_button_pressed(mb_left)
+		{
+		if collision_point(mouse_x, mouse_y, obj_resp, true, false){
+			global.scoreP3 += 15;
+			instance_destroy(obj_score);
+			instance_create_layer(32,32,"Instances", obj_score);
+            global.quizLoop++;
+            room_restart();
+		}
+		for(var i = 0;i < 4;i++){
+			if collision_point(mouse_x, mouse_y, obj_alter[i], true, false){
+			global.scoreP3 -= 5;
+			instance_destroy(obj_score);
+			instance_create_layer(32,32,"Instances", obj_score);
+            global.quizLoop++;
+            room_restart();
+			}
+			}
+		}
+		break;
+	}
+}
+break;
+
+case turnState.turn_player4 :
+with(obj_resp)
+{
+	if mouse_check_button_pressed(mb_left)
+	{
+		if collision_point(mouse_x, mouse_y, obj_resp, true, false){
+			global.scoreP4 += 15;
+			instance_destroy(obj_score);
+			instance_create_layer(32,32,"Instances", obj_score);
+            global.quizLoop++;
+            room_restart();
+			
+		}
+		for(var i = 0;i < 4;i++){
+			if collision_point(mouse_x, mouse_y, obj_alter[i], true, false){
+			global.scoreP4 -= 5;
+			instance_destroy(obj_score);
+			instance_create_layer(32,32,"Instances", obj_score);
+            global.quizLoop++;
+            room_restart();
+			}
+		}	
+	}
+}
+break;
 }
 }

@@ -25,7 +25,7 @@ function scr_event(){
 			global.turn = 2;
 		}
 		else{
-			global.turn = 0;
+			global.turn = 4;
 		}
 		break;
 								
@@ -37,7 +37,7 @@ function scr_event(){
 			global.turn = 3;
 		}
 		else{
-		    global.turn = 0;
+		    global.turn = 4;
 		}
 		break;
 								
@@ -45,7 +45,7 @@ function scr_event(){
 		global.scoreP4 += event_score;
 		instance_destroy(obj_score);
 		instance_create_layer(32,32,"Instances", obj_score);
-		global.turn = 0;
+		global.turn = 4;
 		break;
 								
 		}

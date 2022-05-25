@@ -10,7 +10,7 @@ global.turn = turnState.turn_player1;
 scr_quiz_questions(perguntas_brasil_precolo);*/
 if !ds_exists(global.lst_ordem, ds_type_list){
 			global.lst_ordem = ds_list_create();
-			for(var temp = 0;temp < 6;temp++){
+			for(var temp = 0;temp < 4;temp++){
 				ds_list_add(global.lst_ordem, temp);
 		    }
 		    ds_list_shuffle(global.lst_ordem);
@@ -31,4 +31,3 @@ obj_alternativas[1] =instance_create_layer(640,461,"Instances",obj_quiz_opcao);
 obj_alternativas[2] =instance_create_layer(640,536,"Instances",obj_quiz_opcao);
 obj_alternativas[3] =instance_create_layer(640,612,"Instances",obj_quiz_opcao);
 
-btn_tabu = instance_create_layer(1000,620,"Instances",btn_padrao);

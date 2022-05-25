@@ -41,8 +41,27 @@ switch(global.game_state){
 		case turnState.turn_player4:
 		scr_movement(player4, position);
 		break;
+		
+		case turnState.turn_loop:
+		global.game_state = state.mini_game;
+		break;
 	}
+	break;
 	
+	case state.mini_game:
+	room_goto(rm_quiz);
+	break;
+	
+	case state.endTurn:
+	if(global.round < 26){
+		global.round++;
+		instance_destroy(obj_round);
+		instance_create_layer(32,32,"Instances", obj_round);
+		global.game_state = state.startTurn;
+	}
+	else{
+		global.game_state = state.endGame;
+	}
 	break;
 	
 }

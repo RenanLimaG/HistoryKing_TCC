@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_quiz_opcao",
-    "path": "sprites/spr_quiz_opcao/spr_quiz_opcao.yy",
+    "name": "spr_menuBox_button",
+    "path": "sprites/spr_menuBox_button/spr_menuBox_button.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,6 +22,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

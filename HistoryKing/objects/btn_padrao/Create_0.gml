@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 image_xscale = 0.3480475;
-image_yscale = 0.3021807;
+image_yscale = 0.2821807;
