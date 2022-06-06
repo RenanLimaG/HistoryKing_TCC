@@ -26,8 +26,8 @@ if !ds_exists(global.lst_ordem, ds_type_list){
 
 
 //Criando os botões para as opções, e guardando eles em variaveis
-obj_alternativas[0] = instance_create_layer(640,385,"Instances",obj_quiz_opcao);
-obj_alternativas[1] =instance_create_layer(640,461,"Instances",obj_quiz_opcao);
-obj_alternativas[2] =instance_create_layer(640,536,"Instances",obj_quiz_opcao);
-obj_alternativas[3] =instance_create_layer(640,612,"Instances",obj_quiz_opcao);
+obj_alternativas[0] = instance_create_layer(448,385,"Instances",obj_quiz_opcao);
+obj_alternativas[1] =instance_create_layer(448,461,"Instances",obj_quiz_opcao);
+obj_alternativas[2] =instance_create_layer(448,536,"Instances",obj_quiz_opcao);
+obj_alternativas[3] =instance_create_layer(448,612,"Instances",obj_quiz_opcao);
 
