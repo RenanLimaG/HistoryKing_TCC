@@ -31,25 +31,23 @@ const db = require('../databases/db');
 };*/
 
 const postPerguntas = (req, res) => {
-    db.serialize(function() {
-        db.run("begin transaction");
-         for(var i = 0; i < req.body.length; i++){
-            let sql = `INSERT
-                INTO Perguntas(Periodo, Enunciado, Opcao_a,
-                Opcao_b, Opcao_c, Opcao_d, Resposta)
-                VALUES(?, ?, ?, ?, ?, ?, ?)`;
-                let params = [req.body[i].Periodo, req.body[i].Enunciado,req.body[i].Opcao_A,
-                req.body[i].Opcao_B,req.body[i].Opcao_C,req.body[i].Opcao_D,req.body[i].Resposta];
+
+    for(var i = 0; i < req.body.length; i++){
+        var sql = `INSERT
+            INTO Perguntas(Periodo, Enunciado, Opcao_a,
+             Opcao_b, Opcao_c, Opcao_d, Resposta)
+            VALUES(?, ?, ?, ?, ?, ?, ?)`;
+            var params = [req.body[i].Periodo, req.body[i].Enunciado,req.body[i].Opcao_A,
+            req.body[i].Opcao_B,req.body[i].Opcao_C,req.body[i].Opcao_D,req.body[i].Resposta];
                 db.run(sql, params, (err) => {
                     if(err){
                          console.error(err.message);
                          return;
                         }
                     });
+                res.end();
              }
-         db.run("commit");
-         res.end(JSON.stringify(rows));
-})};
+};
 
 const getPerguntas = (req, res) => {
     const sql = `SELECT Id,

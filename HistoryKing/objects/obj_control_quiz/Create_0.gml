@@ -1,5 +1,7 @@
 /// @description OBJ para controlar eventos
 // You can write your code in this editor
+
+execute_shell("")
 get = http_get("http://localhost:8080/perguntas");
 global.loading = true;
 
