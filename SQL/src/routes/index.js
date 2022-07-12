@@ -1,4 +1,10 @@
-const express = require('express');
+module.exports = function(app) {
+    app.get('/', function(req, res) {
+    res.render('index', { "usuarioLogado" : req.user.login});
+    });
+};
+
+/*const express = require('express');
 const router = express.Router();
 const controller = require('../controller/perguntas-controller');
 
@@ -11,4 +17,4 @@ const configureRouter = () => {
     return router;
 }
 
-module.exports = configureRouter;
+module.exports = configureRouter;*/

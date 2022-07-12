@@ -1,8 +1,7 @@
 /// @description OBJ para controlar eventos
 // You can write your code in this editor
 
-execute_shell("")
-get = http_get("http://localhost:8080/perguntas");
+get = http_get("https://history-king-mongodb.herokuapp.com/perguntas");
 global.loading = true;
 
 global.turn = turnState.turn_player1;
