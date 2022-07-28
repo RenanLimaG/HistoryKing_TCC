@@ -12,8 +12,11 @@ if (ds_map_find_value(async_load, "id") == get)
 		var map = ds_list_find_value(list,ordem);
 		
 		atual_pergunta = ds_map_find_value(map, "Enunciado");
+		show_debug_message(atual_pergunta);
         resposta_index = ds_map_find_value(map, "Resposta");
+		show_debug_message(resposta_index);
         resposta = ds_map_find_value(map, string(resposta_index));
+		show_debug_message(resposta);
 		
 		//Procedimento padrão para criar textos com Scribble
         //Ver em: https://www.jujuadams.com/Scribble/#/latest/
