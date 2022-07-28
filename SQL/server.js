@@ -1,16 +1,4 @@
-var http = require('http');
-var express = require('express');
-var app = express();
-var app = require('./src/express')();
-
-const url = 'mongodb+srv://dswa5:dswa5@cluster0.3fuxs.mongodb.net/HistoryKing?retryWrites=true&w=majority';
-require('./src/databases/db.js')(url);
-
-http.createServer(app).listen(app.get('port'), function() {
-    console.log('Express Server escutando na porta ' + app.get('port'));
-});
-
-/*const express = require('express');
+const express = require('express');
 const app = express();
 const db = require('./src/databases/db');
 const configureRouter = require('./src/routes');
@@ -41,4 +29,3 @@ const server = app.listen(8080, () => {
         return;
     });
 })
-*/

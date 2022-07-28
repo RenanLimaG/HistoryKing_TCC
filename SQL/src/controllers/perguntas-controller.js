@@ -1,79 +1,4 @@
-module.exports = function(app) {
-    var sanitize = require('mongo-sanitize');
-    var Pergunta = app.models.perguntas-model;
-    var controller = {};
-
-    controller.listaPerguntas = function(req, res) {
-        Pergunta.find().exec().then(
-            function(perguntas) {
-                res.json(perguntas);
-            },
-            function(erro) {
-                console.error(erro)
-                res.status(500).json(erro);
-            });
-    };
-
-    controller.obtemPergunta = function(req, res) {
-        var _id = sanitize(req.params.id);
-        Pergunta.findById(_id).exec().then(
-          function(pergunta) {
-            if (!pergunta) throw new Error("Pergunta não encontrado");
-            res.json(pergunta)
-          },
-            function(erro) {
-                console.log(erro);
-                res.status(404).json(erro)
-            }
-        );
-    };
-
-    controller.removePergunta = function(req, res) {
-        var _id = sanitize(req.params.id);
-        Pergunta.deleteOne({ "_id": _id }).exec().then(
-        function() {
-            res.end();
-        },
-        function(erro) {
-            return console.error(erro);
-        });
-    };
-    
-    controller.salvaPergunta = function(req, res) {
-        var _id = req.body._id;
-        var dados = {
-            "Periodo" : req.body.Periodo,
-            "Enunciado" : req.body.Enunciado,
-            "Opcao_A" : req.body.Opcao_A,
-            "Opcao_B" : req.body.Opcao_B,
-            "Opcao_C" : req.body.Opcao_C,
-            "Opcao_D" : req.body.Opcao_D,
-            "Resposta" : req.body.Resposta
-            };
-
-        if (_id) {
-            Pergunta.findByIdAndUpdate(_id, dados).exec().then(
-                function(pergunta) {
-                    res.json(pergunta);
-                },
-                function(erro) {
-                    console.error(erro)
-                    res.status(500).json(erro);
-                });
-        } else {
-            Pergunta.create(dados).then(
-                function(pergunta) {
-                    res.status(201).json(pergunta);
-                },
-                function(erro) {
-                    console.log(erro);
-                    res.status(500).json(erro);
-                });
-        }
-    };
-
-    return controller;
-};
+const db = require('../databases/db')
 
 /*const postPergunta = (req, res) => {
     let sql = `INSERT
@@ -103,7 +28,7 @@ module.exports = function(app) {
             res.end(row.Id.toString());
         });
     });
-};
+};*/
 
 const postPerguntas = (req, res) => {
 
@@ -189,4 +114,4 @@ module.exports = {
     getPerguntas,
     getPergunta,
     deletePergunta
-};*/
+};
