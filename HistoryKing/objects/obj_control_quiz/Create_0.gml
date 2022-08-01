@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 //get = http_get("https://history-king-mongodb.herokuapp.com/perguntas");
-get = http_get("https://us-east-1.aws.data.mongodb-api.com/app/historyking-dllqh/endpoint/get_perguntas");
 global.loading = true;
+get = http_get("https://us-east-1.aws.data.mongodb-api.com/app/historyking-dllqh/endpoint/get_perguntas");
 
 global.turn = turnState.turn_player1;
 

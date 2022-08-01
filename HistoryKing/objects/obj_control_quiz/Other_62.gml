@@ -25,7 +25,7 @@ if (ds_map_find_value(async_load, "id") == get)
         text_pergunta.align(fa_center,fa_middle);
         text_pergunta.wrap(440);
 
-		var alternativas = array_create(4);
+		alternativas = array_create(4);
 		alternativas[0] = ds_map_find_value(map, "Opcao_A");
 		alternativas[1] = ds_map_find_value(map, "Opcao_B");
 		alternativas[2] = ds_map_find_value(map, "Opcao_C");

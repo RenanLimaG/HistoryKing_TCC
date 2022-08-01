@@ -17,8 +17,8 @@ pos_alternativas[3] = [448,612];
 
 //Criando obj no lugar exato da opção correta
 for(var i = 0;i < 4;i++){
-	show_debug_message(text_alternativas[i].get_text());
-	if(text_alternativas[i].get_text() == resposta){
+//	show_debug_message(text_alternativas[i].get_text());
+	if(alternativas[i] == resposta){
 		show_debug_message(resposta);
 		obj_resp = instance_create_layer(pos_alternativas[i][0], pos_alternativas[i][1],
 		"Instances", obj_quiz_resp);
