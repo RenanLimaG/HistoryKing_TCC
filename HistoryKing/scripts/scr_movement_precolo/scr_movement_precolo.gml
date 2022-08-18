@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_movement(player, position){
+function scr_movement_precolo(player, position){
 	with(player){
 		switch(pos){
 			case 0:

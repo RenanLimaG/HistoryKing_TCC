@@ -6,12 +6,20 @@ switch(global.game_state){
 	scr_xy_positions();
 	position[0] = instance_create_layer(702,314,"Positions",obj_position);
 	position[1] = instance_create_layer(764,241,"Positions",obj_position);
-	position[2] = instance_create_layer(712,200,"Positions",obj_position);
-	position[3] = instance_create_layer(655,274,"Positions",obj_position);
-	position[4] = instance_create_layer(674,375,"Positions",obj_position);
-	position[5] = instance_create_layer(606,411,"Positions",obj_position);
+	position[2] = instance_create_layer(695,182,"Positions",obj_position);
+	position[3] = instance_create_layer(635,266,"Positions",obj_position);
+	position[4] = instance_create_layer(702,398,"Positions",obj_position);
+	position[5] = instance_create_layer(609,372,"Positions",obj_position);
 	position[6] = instance_create_layer(635,462,"Positions",obj_position);
 	position[7] = instance_create_layer(540,495,"Positions",obj_position);
+	
+	position[8] = instance_create_layer(480,560,"Positions",obj_position);
+	position[9] = instance_create_layer(412,465,"Positions",obj_position);
+	position[10] = instance_create_layer(522,398,"Positions",obj_position);
+	position[11] = instance_create_layer(437,359,"Positions",obj_position);
+	position[12] = instance_create_layer(530,273,"Positions",obj_position);
+	position[13] = instance_create_layer(590,175,"Positions",obj_position);
+	
 	player1 = instance_create_layer(786,314,"Instances",obj_player1);
 	player2 = instance_create_layer(819,314,"Instances",obj_player2);
 	if(global.num_jogs == 3){
@@ -27,19 +35,19 @@ switch(global.game_state){
 	case state.startTurn : 
 	switch(global.turn){
 		case turnState.turn_player1:
-		scr_movement(player1, position);
+		scr_movement_precolo(player1, position);
 		break;
 		
 		case turnState.turn_player2:
-		scr_movement(player2, position);
+		scr_movement_precolo(player2, position);
 		break;
 		
 		case turnState.turn_player3:
-		scr_movement(player3, position);
+		scr_movement_precolo(player3, position);
 		break;
 		
 		case turnState.turn_player4:
-		scr_movement(player4, position);
+		scr_movement_precolo(player4, position);
 		break;
 		
 		case turnState.turn_loop:
