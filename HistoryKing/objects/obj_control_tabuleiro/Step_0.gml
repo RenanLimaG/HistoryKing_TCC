@@ -13,13 +13,6 @@ switch(global.game_state){
 	position[6] = instance_create_layer(635,462,"Positions",obj_position);
 	position[7] = instance_create_layer(540,495,"Positions",obj_position);
 	
-	position[8] = instance_create_layer(480,560,"Positions",obj_position);
-	position[9] = instance_create_layer(412,465,"Positions",obj_position);
-	position[10] = instance_create_layer(522,398,"Positions",obj_position);
-	position[11] = instance_create_layer(437,359,"Positions",obj_position);
-	position[12] = instance_create_layer(530,273,"Positions",obj_position);
-	position[13] = instance_create_layer(590,175,"Positions",obj_position);
-	
 	player1 = instance_create_layer(786,314,"Instances",obj_player1);
 	player2 = instance_create_layer(819,314,"Instances",obj_player2);
 	if(global.num_jogs == 3){
@@ -32,28 +25,72 @@ switch(global.game_state){
 	global.game_state = state.startTurn;
 	break;
 	
-	case state.startTurn : 
-	switch(global.turn){
-		case turnState.turn_player1:
-		scr_movement_precolo(player1, position);
-		break;
-		
-		case turnState.turn_player2:
-		scr_movement_precolo(player2, position);
-		break;
-		
-		case turnState.turn_player3:
-		scr_movement_precolo(player3, position);
-		break;
-		
-		case turnState.turn_player4:
-		scr_movement_precolo(player4, position);
-		break;
-		
-		case turnState.turn_loop:
-		global.game_state = state.mini_game;
+	case state.startTurn :
+	switch(global.round){
+		case 4:
+		position[8] = instance_create_layer(480,560,"Positions",obj_position);
+	    position[9] = instance_create_layer(412,465,"Positions",obj_position);
+	    position[10] = instance_create_layer(522,398,"Positions",obj_position);
+	    position[11] = instance_create_layer(437,359,"Positions",obj_position);
+	    position[12] = instance_create_layer(530,273,"Positions",obj_position);
+	    position[13] = instance_create_layer(590,175,"Positions",obj_position);
 		break;
 	}
+	
+	switch(global.round){
+		case 1:
+		case 2:
+		case 3:
+		  switch(global.turn){
+		  case turnState.turn_player1:
+		  scr_movement_precolo(player1, position);
+		  break;
+		
+		  case turnState.turn_player2:
+		  scr_movement_precolo(player2, position);
+		  break;
+		
+		  case turnState.turn_player3:
+		  scr_movement_precolo(player3, position);
+		  break;
+		
+		  case turnState.turn_player4:
+		  scr_movement_precolo(player4, position);
+		  break;
+		
+		  case turnState.turn_loop:
+		  global.game_state = state.mini_game;
+		  break;
+	      }
+		break;
+		case 4:
+	    case 5:
+	    case 6:
+	    case 7:
+		switch(global.turn){
+		  case turnState.turn_player1:
+		  scr_movement_coloniza(player1, position);
+		  break;
+		
+		  case turnState.turn_player2:
+		  scr_movement_coloniza(player2, position);
+		  break;
+		
+		  case turnState.turn_player3:
+		  scr_movement_coloniza(player3, position);
+		  break;
+		
+		  case turnState.turn_player4:
+		  scr_movement_coloniza(player4, position);
+		  break;
+		
+		  case turnState.turn_loop:
+		  global.game_state = state.mini_game;
+		  break;
+	      }
+		break;
+	}
+	
 	break;
 	
 	case state.mini_game:

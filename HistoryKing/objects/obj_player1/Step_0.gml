@@ -42,5 +42,34 @@ switch (pos){
 	y = global.dy[7][0];
 	break;
 	
+	case 8:
+	x = global.dx[8][0];
+	y = global.dy[8][0];
+	break;
+	
+	case 9:
+	x = global.dx[9][0];
+	y = global.dy[9][0];
+	break;
+	
+	case 10:
+	x = global.dx[10][0];
+	y = global.dy[10][0];
+	break;
+	
+	case 11:
+	x = global.dx[11][0];
+	y = global.dy[11][0];
+	break;
+	
+	case 12:
+	x = global.dx[12][0];
+	y = global.dy[12][0];
+	break;
+	
+	case 13:
+	x = global.dx[13][0];
+	y = global.dy[13][0];
+	break;
 	
 }
