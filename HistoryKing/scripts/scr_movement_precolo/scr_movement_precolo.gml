@@ -5,8 +5,14 @@ function scr_movement_precolo(player, position){
 		switch(pos){
 			case 0:
 			with(position[1]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 1;
 							mouse_clear(mb_any);
@@ -17,8 +23,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[3]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
@@ -29,8 +41,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[4]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 4;
 							mouse_clear(mb_any);
@@ -44,8 +62,14 @@ function scr_movement_precolo(player, position){
 			
 			case 1:
 			with(position[0]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 0;
 							mouse_clear(mb_any);
@@ -56,8 +80,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[2]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 2;
 							mouse_clear(mb_any);
@@ -68,8 +98,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[3]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
@@ -83,8 +119,14 @@ function scr_movement_precolo(player, position){
 			
 			case 2:
 			with(position[1]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 1;
 							mouse_clear(mb_any);
@@ -95,8 +137,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[3]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
@@ -110,8 +158,14 @@ function scr_movement_precolo(player, position){
 			
 			case 3:
 			with(position[0]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 0;
 							mouse_clear(mb_any);
@@ -122,8 +176,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[1]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 1;
 							mouse_clear(mb_any);
@@ -134,8 +194,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[2]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 2;
 							mouse_clear(mb_any);
@@ -147,8 +213,14 @@ function scr_movement_precolo(player, position){
 			}
 			
 			with(position[5]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
@@ -162,8 +234,14 @@ function scr_movement_precolo(player, position){
 			
 			case 4:
 			with(position[0]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 0;
 							mouse_clear(mb_any);
@@ -175,8 +253,14 @@ function scr_movement_precolo(player, position){
 			}
 			
 			with(position[5]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
@@ -187,8 +271,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[6]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 6;
 							mouse_clear(mb_any);
@@ -202,8 +292,14 @@ function scr_movement_precolo(player, position){
 			
 			case 5:
 			with(position[0]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 0;
 							mouse_clear(mb_any);
@@ -214,8 +310,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[3]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
@@ -226,8 +328,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[4]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 4;
 							mouse_clear(mb_any);
@@ -238,8 +346,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[6]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 6;
 							mouse_clear(mb_any);
@@ -250,8 +364,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[7]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 7;
 							mouse_clear(mb_any);
@@ -265,8 +385,14 @@ function scr_movement_precolo(player, position){
 			
 			case 6:
 			with(position[4]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 4;
 							mouse_clear(mb_any);
@@ -277,8 +403,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[5]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
@@ -289,8 +421,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[7]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 7;
 							mouse_clear(mb_any);
@@ -304,8 +442,14 @@ function scr_movement_precolo(player, position){
 			
 			case 7:
 			with(position[5]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
@@ -316,8 +460,14 @@ function scr_movement_precolo(player, position){
 				}
 			}
 			with(position[6]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
 				if mouse_check_button_pressed(mb_left){
 					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
 						with(player){
 							pos = 6;
 							mouse_clear(mb_any);
