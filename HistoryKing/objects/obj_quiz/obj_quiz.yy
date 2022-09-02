@@ -1,10 +1,11 @@
 {
   "spriteId": {
-    "name": "spr_quiz",
-    "path": "sprites/spr_quiz/spr_quiz.yy",
+    "name": "spr_quiz_2",
+    "path": "sprites/spr_quiz_2/spr_quiz_2.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
