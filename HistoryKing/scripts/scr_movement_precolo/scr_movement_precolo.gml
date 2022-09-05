@@ -17,6 +17,9 @@ function scr_movement_precolo(player, position){
 							pos = 1;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -35,6 +38,9 @@ function scr_movement_precolo(player, position){
 							pos = 3;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -53,6 +59,9 @@ function scr_movement_precolo(player, position){
 							pos = 4;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -74,6 +83,9 @@ function scr_movement_precolo(player, position){
 							pos = 0;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -92,6 +104,9 @@ function scr_movement_precolo(player, position){
 							pos = 2;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -110,6 +125,9 @@ function scr_movement_precolo(player, position){
 							pos = 3;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -131,6 +149,9 @@ function scr_movement_precolo(player, position){
 							pos = 1;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -149,6 +170,9 @@ function scr_movement_precolo(player, position){
 							pos = 3;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -170,6 +194,9 @@ function scr_movement_precolo(player, position){
 							pos = 0;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -188,6 +215,9 @@ function scr_movement_precolo(player, position){
 							pos = 1;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -206,6 +236,9 @@ function scr_movement_precolo(player, position){
 							pos = 2;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -225,6 +258,9 @@ function scr_movement_precolo(player, position){
 							pos = 5;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -246,6 +282,9 @@ function scr_movement_precolo(player, position){
 							pos = 0;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -265,6 +304,9 @@ function scr_movement_precolo(player, position){
 							pos = 5;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -283,6 +325,9 @@ function scr_movement_precolo(player, position){
 							pos = 6;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -304,6 +349,9 @@ function scr_movement_precolo(player, position){
 							pos = 0;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -322,6 +370,9 @@ function scr_movement_precolo(player, position){
 							pos = 3;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -340,6 +391,9 @@ function scr_movement_precolo(player, position){
 							pos = 4;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -358,6 +412,9 @@ function scr_movement_precolo(player, position){
 							pos = 6;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -376,6 +433,9 @@ function scr_movement_precolo(player, position){
 							pos = 7;
 							mouse_clear(mb_any);
 						    scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -397,6 +457,9 @@ function scr_movement_precolo(player, position){
 							pos = 4;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -415,6 +478,9 @@ function scr_movement_precolo(player, position){
 							pos = 5;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -433,6 +499,9 @@ function scr_movement_precolo(player, position){
 							pos = 7;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -454,6 +523,9 @@ function scr_movement_precolo(player, position){
 							pos = 5;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
@@ -472,6 +544,9 @@ function scr_movement_precolo(player, position){
 							pos = 6;
 							mouse_clear(mb_any);
 							scr_event();
+							with(obj_event_pause){
+								event_pause = true;
+							}
 						}
 						mouse_clear(mb_any);
 					}
