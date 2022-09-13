@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_quiz_opcao",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1fd019ed-8c2d-4c57-bc9b-8162bd79e4a4","path":"sprites/spr_quiz_opcao/spr_quiz_opcao.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1fd019ed-8c2d-4c57-bc9b-8162bd79e4a4","path":"sprites/spr_quiz_opcao/spr_quiz_opcao.yy",},"LayerId":{"name":"cb54b285-ebe9-4d0a-a131-0dfa98ef8f8a","path":"sprites/spr_quiz_opcao/spr_quiz_opcao.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_quiz_opcao","path":"sprites/spr_quiz_opcao/spr_quiz_opcao.yy",},"resourceVersion":"1.0","name":"1fd019ed-8c2d-4c57-bc9b-8162bd79e4a4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1fd019ed-8c2d-4c57-bc9b-8162bd79e4a4",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_quiz_opcao","path":"sprites/spr_quiz_opcao/spr_quiz_opcao.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_quiz_opcao",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8f053fcd-54bf-4683-9d8c-c2bdb0786a33","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1fd019ed-8c2d-4c57-bc9b-8162bd79e4a4","path":"sprites/spr_quiz_opcao/spr_quiz_opcao.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 28,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_quiz_opcao","path":"sprites/spr_quiz_opcao/spr_quiz_opcao.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_quiz_opcao",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cb54b285-ebe9-4d0a-a131-0dfa98ef8f8a","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cb54b285-ebe9-4d0a-a131-0dfa98ef8f8a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Quiz",
     "path": "folders/Sprites/Mini-Games/Quiz.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_quiz_opcao",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

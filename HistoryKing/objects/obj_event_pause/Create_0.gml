@@ -8,5 +8,3 @@ pauseSurfBuffer = -1;
 resW = 1280;
 resH = 720;
 
-
-
