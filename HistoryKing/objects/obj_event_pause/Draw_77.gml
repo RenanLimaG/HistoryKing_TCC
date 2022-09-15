@@ -4,7 +4,13 @@ gpu_set_blendenable(false);
 
 if(event_pause)
 {	
-	instance_deactivate_all(true);
+	instance_deactivate_object(obj_control_tabuleiro);
+	instance_deactivate_object(obj_player1);
+	instance_deactivate_object(obj_player2);
+	instance_deactivate_object(obj_player3);
+	instance_deactivate_object(obj_player4);
+	instance_deactivate_object(obj_round);
+	
 	
 	pauseSurf = surface_create(resW,resH);
 	surface_set_target(pauseSurf);
@@ -15,9 +21,8 @@ if(event_pause)
 	pauseSurfBuffer = buffer_create(resW * resH * 4, buffer_fixed, 1);
 	buffer_get_surface(pauseSurfBuffer, pauseSurf, 0);
 	
-	instance_activate_object(obj_evento);
 	instance_create_layer(640, 416, "Instances_1", obj_evento);
-	instance_activate_object(obj_evento);
+	
 	//draw_sprite_ext(imagem, -1, 383, 128, 1, 1, 0, -1, 1 );
 	
 	
