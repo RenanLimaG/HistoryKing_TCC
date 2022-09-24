@@ -9,9 +9,11 @@ if (ds_map_find_value(async_load, "id") == get)
 		var resultMap = json_decode(result);
 		var list = ds_map_find_value(resultMap,"default");
 	
-		var map = ds_list_find_value(list,1);
+		var map = ds_list_find_value(list,ordem);
+		show_debug_message(ordem);
 		
 		atual_evento = ds_map_find_value(map, "Enunciado");
+		show_debug_message("");
 		show_debug_message(atual_evento);
 		titulo = ds_map_find_value(map, "Titulo");
         pontos = ds_map_find_value(map, "Pontos");
@@ -19,7 +21,6 @@ if (ds_map_find_value(async_load, "id") == get)
 		show_debug_message("");
 		show_debug_message(imagem_url);
 		imagem = sprite_add(imagem_url, 0, false, false, 0, 0);
-		
 		
 		//Procedimento padrão para criar textos com Scribble
         //Ver em: https://www.jujuadams.com/Scribble/#/latest/
@@ -34,13 +35,13 @@ if (ds_map_find_value(async_load, "id") == get)
 		ds_map_destroy(resultMap);
 		
 		global.error = "";
+		
     }
 	else
 	{
 		global.error = "Database not found";
 	}
-	
-	global.loading = false;
+ global.loading = false;
 }
 
 

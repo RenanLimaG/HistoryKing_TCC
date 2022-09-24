@@ -19,8 +19,6 @@ else if(global.num_jogs == 4){
 	global.scoreP4 = 0;
 }
 
-instance_create_layer(640, 416, "Instances_1", obj_evento);
-
 
 
 

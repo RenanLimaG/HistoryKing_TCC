@@ -17,5 +17,6 @@ enum turnState
 }
 
 global.quizLoop = 0;
-global.lst_ordem = 0;
 global.round = 1;
+global.loading = false;
+global.error = "";
