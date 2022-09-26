@@ -17,6 +17,7 @@ if (ds_map_find_value(async_load, "id") == get)
 		show_debug_message(atual_evento);
 		titulo = ds_map_find_value(map, "Titulo");
         pontos = ds_map_find_value(map, "Pontos");
+        tipo_evento = ds_map_find_value(map, "Tipo");
 		imagem_url = ds_map_find_value(map, "Imagem");
 		show_debug_message("");
 		show_debug_message(imagem_url);
@@ -28,6 +29,8 @@ if (ds_map_find_value(async_load, "id") == get)
         text_evento.starting_format("font_padrao_quiz", c_black);
         text_evento.align(fa_center,fa_middle);
         text_evento.wrap(440);
+		
+		scr_event(tipo_evento, pontos);
 		
 		
 		ds_map_destroy(map);

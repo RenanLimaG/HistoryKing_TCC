@@ -16,7 +16,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 1;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -37,7 +36,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -58,7 +56,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 4;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -82,7 +79,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 0;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -103,7 +99,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 2;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -124,7 +119,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -148,7 +142,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 1;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -169,7 +162,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -193,7 +185,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 0;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -214,7 +205,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 1;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -235,7 +225,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 2;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -257,7 +246,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -281,7 +269,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 0;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -303,7 +290,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -324,7 +310,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 6;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -348,7 +333,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 0;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -369,7 +353,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -390,7 +373,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 4;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -411,7 +393,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 6;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -432,7 +413,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 7;
 							mouse_clear(mb_any);
-						    scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -456,7 +436,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 4;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -477,7 +456,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -498,7 +476,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 7;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -522,7 +499,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
@@ -543,7 +519,6 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 6;
 							mouse_clear(mb_any);
-							scr_event();
 							with(obj_event_pause){
 								event_pause = true;
 							}
