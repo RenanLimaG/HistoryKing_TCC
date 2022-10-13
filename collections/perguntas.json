@@ -172,7 +172,7 @@
     },
     {
         "Periodo": "coloniza",
-        "Enunciado": "Mesmo tendo certa experiência no cultivo e moagem da cana-de-açucar, os Portugueses não tinham o conhecimento nem o maquinário necessário para refinar o produto. Para resolver esse problema, Portugal precisou realizar acordos com a Holanda para refino e comercio do açucar;\\n \\n Esses acordos fizeram parte do chamado:",
+        "Enunciado": "Mesmo tendo certa experiência no cultivo e moagem da cana-de-açucar, os portugueses não tinham o conhecimento nem o maquinário necessário para refinar o produto. Para resolver esse problema, Portugal precisou realizar acordos com a Holanda para refino e comercio do açucar;\\n \\n Esses acordos fizeram parte do chamado:",
         "Opcao_A": "Tratado de Tordesilhas",
         "Opcao_B": "União Colonial",
         "Opcao_C": "Tratado de Methuen",
@@ -181,14 +181,69 @@
     },
     {
         "Periodo": "coloniza",
+        "Enunciado": "Após os portugueses enfrentarem dificuldades na escravização dos indígenas, eles começariam a buscar escravos na África. Eles capturavam escravos africanos em suas colonias e os negociavam nas feitorias;\\n \\n Dos países abaixo, quais foram territórios coloniais portugueses?",
+        "Opcao_A": "Angola e Moçambique",
+        "Opcao_B": "Nigéria e Congo",
+        "Opcao_C": "Guiné e Congo",
+        "Opcao_D": "Egito e Angola",
+        "Resposta": "Angola e Moçambique"
+    },
+    {
+        "Periodo": "coloniza",
+        "Enunciado": "Por conta do interesse que os Jesuitas tinham em catequizar os indígenas, houveram muitos atritos entre estes e os bandeirantes, que procuravam mão-de-obra escrava para os engenhos. Um desses atritos resultou em um conflito dos Jesuítas, com ajuda dos índios, contra os portugueses;\\n \\n Qual foi o nome dado a esse conflito?",
+        "Opcao_A": "Batalha Tupinambá",
+        "Opcao_B": "Revolta da Chibata",
+        "Opcao_C": "Guerra Guaranítica",
+        "Opcao_D": "Guerra dos Emboabas",
+        "Resposta": "Guerra Guaranítica"
+    },
+    {
+        "Periodo": "coloniza",
+        "Enunciado": "O desbravamento do sertão foi iniciado pelos bandeirantes, com o principal objetivo de prender indígenas e destruir quilombos. No caminho dessas expedições, os bandeirantes encontraram matérias primas, que os fizeram estabelecer ocupações na região;\\n \\n Qual foi a principal dessas matérias primas?",
+        "Opcao_A": "Ouro e pedras preciosas",
+        "Opcao_B": "Guaraná",
+        "Opcao_C": "Café",
+        "Opcao_D": "Cana-de-Açucar",
+        "Resposta": "Ouro e pedras preciosas"
+    },
+    {
+        "Periodo": "coloniza",
+        "Enunciado": "Com a descoberta de ouro no território de Minas Gerais, a economia mineradora começava a se destacar e gerar lucros. Para melhor controlar a extração dos metais preciosos, a Coroa Portuguesa decidiu transferir o status de capital de Salvador para outra região da colonia;\\n \\n Qual foi a região escolhida?",
+        "Opcao_A": "Espirito Santo",
+        "Opcao_B": "São Paulo",
+        "Opcao_C": "Minas Gerais",
+        "Opcao_D": "Rio de Janeiro",
+        "Resposta": "Rio de Janeiro"
+    },
+    {
+        "Periodo": "coloniza",
+        "Enunciado": "A Companhia das Índias Ocidentais, empresa criada pelos Holandeses para administrar a exploração da cana-de-açucar nas américas, decidiu por invadir territórios do Brasil para fixar polos de exploração no Nordeste. Essa invasão resultou em um dos maiores confrontos do período colonial.\\n \\n Qual o nome dado a esse confronto?",
+        "Opcao_A": "Conjuração Baiana",
+        "Opcao_B": "Revolução do Porto",
+        "Opcao_C": "Insurreição Pernambucana",
+        "Opcao_D": "Guerra dos Emboabas",
+        "Resposta": "Insurreição Pernambucana"
+    },
+    {
+        "Periodo": "coloniza",
+        "Enunciado": "Dentre as revoltas mais famosas do período colonial, podemos destacar a Conjuração Mineira, onde a elite socioecônomica de Minas Gerais protestava principalmente pelos altos impostos da Coroa;\\n \\n Quem foi o principal participante dessa revolta?",
+        "Opcao_A": "Lampião",
+        "Opcao_B": "Tiradentes",
+        "Opcao_C": "Mineirinho",
+        "Opcao_D": "Maurício de Nassau",
+        "Resposta": "Tiradentes"
+    },
+    {
+        "Periodo": "coloniza",
         "Enunciado": "",
-        "Opcao_A": "Tratado de Tordesilhas",
-        "Opcao_B": "União Colonial",
-        "Opcao_C": "Tratado de Methuen",
-        "Opcao_D": "Pacto Colonial",
-        "Resposta": "Pacto Colonial"
+        "Opcao_A": "Lampião",
+        "Opcao_B": "Tiradentes",
+        "Opcao_C": "Mineirinho",
+        "Opcao_D": "Maurício de Nassau",
+        "Resposta": "Tiradentes"
     },
     
 ]
 
 Pre-Colonização: 12
+Colonização: 15
