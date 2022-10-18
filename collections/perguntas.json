@@ -235,13 +235,95 @@
     },
     {
         "Periodo": "coloniza",
-        "Enunciado": "",
-        "Opcao_A": "Lampião",
-        "Opcao_B": "Tiradentes",
-        "Opcao_C": "Mineirinho",
-        "Opcao_D": "Maurício de Nassau",
-        "Resposta": "Tiradentes"
+        "Enunciado": "A relação entre Espanha e Portugal sobre suas colônias nas Américas sempre foi de constante disputa. Para tentar resolver essas disputas de maneira burocrática, ambas as nações decidiram por fazer um novo acordo;\\n \\n Qual foi este acordo?",
+        "Opcao_A": "Tratado de Madri",
+        "Opcao_B": "Tratado de Tordesilhas",
+        "Opcao_C": "Tratado de Methuen",
+        "Opcao_D": "Tratado de Paris",
+        "Resposta": "Tratado de Madri"
     },
+    {
+        "Periodo": "imperial",
+        "Enunciado": "Além das diversas revoltas populares, o principal fator que levou ao fim do periodo colonial foi a chegada da Familia Real ao Brasil;\\n \\n Qual evento que ocorreu na Europa motivou essa movimentação da corte para a colônia?",
+        "Opcao_A": "Guerra dos 100 anos",
+        "Opcao_B": "União Ibérica",
+        "Opcao_C": "Guerras Napoleônicas",
+        "Opcao_D": "Invasão Árabe",
+        "Resposta": "Guerras Napoleônicas"
+    },
+    {
+        "Periodo": "imperial",
+        "Enunciado": "Como um dos primeiros decretos ao se estabelecer no Rio de Janeiro, D. João VI oficializou a abertura dos portos a chamadas \"Nações Amigas\";\\n \\n Qual aliado de Portugal mais se beneficiou com essa política?",
+        "Opcao_A": "Espanha",
+        "Opcao_B": "Inglaterra",
+        "Opcao_C": "França",
+        "Opcao_D": "Holanda",
+        "Resposta": "Inglaterra"
+      },
+      {
+        "Periodo": "imperial",
+        "Enunciado": "O primeiro jornal fundado no Brasil, a \"Gazeta do Rio de Janeiro\", surgiu após demandas administrativas da família real, e era impresso em oficinas especializadas;\\n \\n Como eram chamadas essas oficinas?",
+        "Opcao_A": "Monográficas",
+        "Opcao_B": "Scriptoriums",
+        "Opcao_C": "Manufatureiras",
+        "Opcao_D": "Tipográficas ",
+        "Resposta": "Tipográficas"
+      },
+      {
+        "Periodo": "imperial",
+        "Enunciado": "Mesmo conhecido pelos seus projetos de infraestrutura no espaço urbano Brasileiro, principalmente no Rio de Janeiro, D. João também decidiu por iniciar conflitos nas províncias fronteiras, como retaliação às Guerras Napoleônicas que ocorriam na Europa;\\n \\n Quais terras o Brasil anexou nesses conflitos?",
+        "Opcao_A": "Paraguai e Equador",
+        "Opcao_B": "Cisplatina e Acre",
+        "Opcao_C": "Guiana e Cisplatina",
+        "Opcao_D": "Argentina e Acre",
+        "Resposta": "Guiana e Cisplatina"
+      },
+      {
+        "Periodo": "imperial",
+        "Enunciado": "Mesmo com a volta de D. João a Portugal, em decorrência da Revolução do Porto, o seu filho Pedro I ficou no Brasil. Ao ser pressionado a voltar para Portugal, Dom Pedro escolheu por continuar no Brasil;\\n \\n Como ficou conhecido esse evento?",
+        "Opcao_A": "Revolta Parlamentar",
+        "Opcao_B": "Dia do Fico",
+        "Opcao_C": "Dia do Nego",
+        "Opcao_D": "Grito da Independência",
+        "Resposta": "Dia do Fico"
+      },
+      {
+        "Periodo": "imperial",
+        "Enunciado": "Indignados com a recusa de Dom Pedro I em voltar para Portugal, os ministros portugueses decidem por pedir demissão, abrindo caminho para Dom Pedro formar um novo ministério;\\n \\n Que figura influente foi escolhida como um dos novos ministros?",
+        "Opcao_A": "Leopoldina",
+        "Opcao_B": "José Bonifácio",
+        "Opcao_C": "Marques de Santos",
+        "Opcao_D": "General Avilés",
+        "Resposta": "José Bonifácio"
+      },
+      {
+        "Periodo": "imperial",
+        "Enunciado": "O periodo Imperial foi marcado por várias crises econômicas, entre elas a crise da cana-de-açucar, que ainda era carro chefe da economia. Com isso, um outro produto apelidado de \"Ouro Verde\" começou a tomar o seu lugar;\\n \\n Qual foi esse produto?",
+        "Opcao_A": "Café",
+        "Opcao_B": "Algodão",
+        "Opcao_C": "Guaraná",
+        "Opcao_D": "Carvão",
+        "Resposta": "Café"
+      },
+      {
+        "Periodo": "imperial",
+        "Enunciado": "Dentre as várias revoltas separatistas que ocorreram no território Brasileiro durante o império, uma delas se destaca por conseguir proclamar a independência do seu território, com ajuda da Argentina;\\n \\n Qual foi o nome dado a esse conflito?",
+        "Opcao_A": "Revolta Pernambucana",
+        "Opcao_B": "Guerra do Acre",
+        "Opcao_C": "Guerra da Guiana",
+        "Opcao_D": "Guerra da Cisplatina",
+        "Resposta": "Guerra da Cisplatina"
+      },
+      {
+        "Periodo": "imperial",
+        "Enunciado": "A primeira constituição brasileira, a Constituição de 1824, foi redigida durante o reinado de Dom Pedro I. Nela estava descrito a atuação dos três poderes: Executivo, Legislativo e Judiciário, além de um quarto poder para \"casos especiais\";\\n \\n Como foi chamado esse poder?",
+        "Opcao_A": "Poder Supremo",
+        "Opcao_B": "Poder Imperial",
+        "Opcao_C": "Poder Moderador",
+        "Opcao_D": "Poder Mediador",
+        "Resposta": "Poder Moderador"
+      }
+
     
 ]
 
