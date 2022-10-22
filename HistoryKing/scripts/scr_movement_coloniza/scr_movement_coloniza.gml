@@ -100,7 +100,9 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 12;
 							mouse_clear(mb_any);
-							with(obj_event_pause){;
+							with(obj_event_pause){
+								event_pause = true;
+						}
 						}
 						mouse_clear(mb_any);
 					}
@@ -108,7 +110,7 @@ function scr_movement_coloniza(player, position){
 			}
 			break;
 			
-			case 6:
+		    case 6:
 			with(position[10]){
 				if (instance_position(mouse_x,mouse_y,self)){
 					available = true;
@@ -121,7 +123,9 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 10;
 							mouse_clear(mb_any);
-							with(obj_event_pause){;
+							with(obj_event_pause){
+								event_pause = true;
+						}
 						}
 						mouse_clear(mb_any);
 					}
@@ -142,7 +146,9 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 8;
 							mouse_clear(mb_any);
-							with(obj_event_pause){;
+							with(obj_event_pause){
+								event_pause = true;
+						}
 						}
 						mouse_clear(mb_any);
 					}
@@ -160,7 +166,9 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 10;
 							mouse_clear(mb_any);
-							with(obj_event_pause){;
+							with(obj_event_pause){
+								event_pause = true;
+						}
 						}
 						mouse_clear(mb_any);
 					}
@@ -184,6 +192,7 @@ function scr_movement_coloniza(player, position){
 							with(obj_event_pause){
 								event_pause = true;
 							}
+						
 						}
 						mouse_clear(mb_any);
 					}
@@ -205,6 +214,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -228,6 +238,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -248,6 +259,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -268,10 +280,12 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
 			}
+			
 			break;
 			
 			case 10:
@@ -291,6 +305,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -311,6 +326,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -331,6 +347,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -351,6 +368,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -371,6 +389,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -394,6 +413,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -414,6 +434,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -434,6 +455,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -457,6 +479,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -477,6 +500,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -497,6 +521,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -517,6 +542,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -537,6 +563,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -560,6 +587,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -580,6 +608,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
@@ -600,6 +629,7 @@ function scr_movement_coloniza(player, position){
 								event_pause = true;
 							}
 						}
+						
 						mouse_clear(mb_any);
 					}
 				}
