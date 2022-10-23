@@ -26,21 +26,22 @@ if(event_pause)
 	
 	//draw_sprite_ext(imagem, -1, 383, 128, 1, 1, 0, -1, 1 );
 	
-	
-	if(keyboard_check_pressed(vk_space))
-	{
-		instance_activate_all();
+	if(!global.loading){
+		if(keyboard_check_pressed(vk_space))
+		{
+			instance_activate_all();
 		
-		with(obj_evento){
-			ds_list_destroy(global.lst_ordem);
-	        global.lst_ordem = 0;
+			with(obj_evento){
+				ds_list_destroy(global.lst_ordem);
+		        global.lst_ordem = 0;
+			}
+			instance_destroy(obj_evento);
+		
+			if(surface_exists(pauseSurf)) surface_free(pauseSurf);
+			if(buffer_exists(pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);
+		
+			event_pause = false;
 		}
-		instance_destroy(obj_evento);
-		
-		if(surface_exists(pauseSurf)) surface_free(pauseSurf);
-		if(buffer_exists(pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);
-		
-		event_pause = false;
 	}
 	
 }

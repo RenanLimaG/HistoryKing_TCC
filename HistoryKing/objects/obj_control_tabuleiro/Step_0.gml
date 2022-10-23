@@ -42,6 +42,7 @@ switch(global.game_state){
 	    position[17] = instance_create_layer(343,382,"Positions",obj_position);
 	    position[18] = instance_create_layer(401,153,"Positions",obj_position);
 	    position[19] = instance_create_layer(305,189,"Positions",obj_position);
+	    position[20] = instance_create_layer(305,189,"Positions",obj_position);
 	}
 	
 	switch(global.round){
@@ -89,6 +90,32 @@ switch(global.game_state){
 		
 		  case turnState.turn_player4:
 		  scr_movement_coloniza(player4, position);
+		  break;
+		
+		  case turnState.turn_loop:
+		  global.game_state = state.mini_game;
+		  break;
+	      }
+		break;
+		case 8:
+	    case 9:
+	    case 10:
+	    case 11:
+		switch(global.turn){
+		  case turnState.turn_player1:
+		  scr_movement_imperial(player1, position);
+		  break;
+		
+		  case turnState.turn_player2:
+		  scr_movement_imperial(player2, position);
+		  break;
+		
+		  case turnState.turn_player3:
+		  scr_movement_imperial(player3, position);
+		  break;
+		
+		  case turnState.turn_player4:
+		  scr_movement_imperial(player4, position);
 		  break;
 		
 		  case turnState.turn_loop:

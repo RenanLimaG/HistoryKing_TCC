@@ -28,6 +28,7 @@ switch(global.round){
 		    ds_list_delete(global.lst_ordem, 0);
 	
 		break;
+		
 		case 4:
 	    case 5:
 	    case 6:
@@ -35,6 +36,24 @@ switch(global.round){
 		if !ds_exists(global.lst_ordem, ds_type_list){
 			global.lst_ordem = ds_list_create();
 			for(var temp = 12;temp < 26;temp++){
+				ds_list_add(global.lst_ordem, temp);
+		    }
+		    ds_list_shuffle(global.lst_ordem);
+		    }
+
+            //Procediemento de escolher um item aleatória do array de perguntas, e definindo 
+		    //as variaveis conforme o item escolhido
+            ordem = ds_list_find_value(global.lst_ordem, 0);
+		    ds_list_delete(global.lst_ordem, 0);
+		break;
+		
+		case 8:
+	    case 9:
+	    case 10:
+	    case 11:
+		if !ds_exists(global.lst_ordem, ds_type_list){
+			global.lst_ordem = ds_list_create();
+			for(var temp = 27;temp < 35;temp++){
 				ds_list_add(global.lst_ordem, temp);
 		    }
 		    ds_list_shuffle(global.lst_ordem);
