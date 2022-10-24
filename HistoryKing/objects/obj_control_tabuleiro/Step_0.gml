@@ -42,7 +42,7 @@ switch(global.game_state){
 	    position[17] = instance_create_layer(343,382,"Positions",obj_position);
 	    position[18] = instance_create_layer(401,153,"Positions",obj_position);
 	    position[19] = instance_create_layer(305,189,"Positions",obj_position);
-	    position[20] = instance_create_layer(305,189,"Positions",obj_position);
+	    position[20] = instance_create_layer(416,608,"Positions",obj_position);
 	}
 	
 	switch(global.round){

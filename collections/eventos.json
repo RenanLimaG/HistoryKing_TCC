@@ -1,34 +1,42 @@
 [
     {
-        "Periodo": "precolo",
+        "Periodo": "1 - precolo",
         "Tipo": "bom",
         "Imagem": "https://1.bp.blogspot.com/-FJC8K4q_IP0/XToPV3Rx2RI/AAAAAAAAC_c/XXJEdFmiJowXHW4XAJDUXh34s5uTRN8pgCLcBGAs/s1600/a-chegada-de-pedro-alvares-ao-brasil-1280x720.gif",
-        "Titulo": "Titulo",
-        "Enunciado": "Esse é um evento teste 1, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing",
+        "Titulo": "O Primeiro Encontro",
+        "Enunciado": "Nas costas brasileiras, os nativos tupis se encontram pela primeira vez com os portugueses. As primeiras relações são marcadas por desconfiança e temor, mas os navegadores lusitanos ainda não estavam lá para tomar suas terras.\\n Você ganhou 10 pontos!",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "1 - precolo",
+        "Tipo": "ruim",
+        "Imagem": "https://1.bp.blogspot.com/-FJC8K4q_IP0/XToPV3Rx2RI/AAAAAAAAC_c/XXJEdFmiJowXHW4XAJDUXh34s5uTRN8pgCLcBGAs/s1600/a-chegada-de-pedro-alvares-ao-brasil-1280x720.gif",
+        "Titulo": "Guerreiros de Monan",
+        "Enunciado": "Os colonos portugueses, com o trabalho braçal de uma tribo tupiniquim, estavam colhendo Pau-Brasil da região, quando foram pegos de surpresa por um ataque Tupinambá. A tribo não aceitaria tão facilmente a exploração lusitana de suas terras, e estavam prontos para lutar com honra e garra.\\n Você perdeu 10 pontos.",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "1 - precolo",
+        "Tipo": "bom",
+        "Imagem": "https://1.bp.blogspot.com/-FJC8K4q_IP0/XToPV3Rx2RI/AAAAAAAAC_c/XXJEdFmiJowXHW4XAJDUXh34s5uTRN8pgCLcBGAs/s1600/a-chegada-de-pedro-alvares-ao-brasil-1280x720.gif",
+        "Titulo": "A Tribo Guerreira",
+        "Enunciado": "Ao atravessar ainda mais a costa brasileira, os exploradores lusitanos se chocam ao descobrir uma tribo nova, diferente de todas as outras que haviam encontrado desde então. Os Tupinambás sabiam caçar, lutar e guerrear, além de praticar rituais antropofágicos, onde consumiam a carne dos adversários acreditando absorver a energia dos mesmos. Os colonos, porém, ainda não se mostraram dignos do ritual.\\n Você ganhou 5 pontos!",
+        "Pontos": 5
+    },
+    {
+        "Periodo": "1 - precolo",
+        "Tipo": "bom",
+        "Imagem": "https://1.bp.blogspot.com/-FJC8K4q_IP0/XToPV3Rx2RI/AAAAAAAAC_c/XXJEdFmiJowXHW4XAJDUXh34s5uTRN8pgCLcBGAs/s1600/a-chegada-de-pedro-alvares-ao-brasil-1280x720.gif",
+        "Titulo": "\"O Melhor Gentio\"",
+        "Enunciado": "Por sorte dos colonos, a proxima tribo que encontrariam seria de extrema ajuda para seus objetivos, além de serem bem receptivos aos invasores. Os Carijós conseguiram formar uma boa relação com os lusitanos, principalmente pelos seus costumes pacíficos e recepção a catequese cristã, sendo apelidados pelos colonizadores de \"melhor gentio da região\".\n Você ganhou 15 pontos!",
         "Pontos": 15
     },
     {
-        "Periodo": "precolo",
-        "Tipo": "bom",
+        "Periodo": "1 - precolo",
+        "Tipo": "ruim",
         "Imagem": "https://1.bp.blogspot.com/-FJC8K4q_IP0/XToPV3Rx2RI/AAAAAAAAC_c/XXJEdFmiJowXHW4XAJDUXh34s5uTRN8pgCLcBGAs/s1600/a-chegada-de-pedro-alvares-ao-brasil-1280x720.gif",
-        "Titulo": "Titulo",
-        "Enunciado": "Esse é um evento teste 1, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing",
-        "Pontos": 15
-    },
-    {
-        "Periodo": "precolo",
-        "Tipo": "bom",
-        "Imagem": "https://1.bp.blogspot.com/-FJC8K4q_IP0/XToPV3Rx2RI/AAAAAAAAC_c/XXJEdFmiJowXHW4XAJDUXh34s5uTRN8pgCLcBGAs/s1600/a-chegada-de-pedro-alvares-ao-brasil-1280x720.gif",
-        "Titulo": "Titulo",
-        "Enunciado": "Esse é um evento teste 1, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing",
-        "Pontos": 15
-    },
-    {
-        "Periodo": "precolo",
-        "Tipo": "bom",
-        "Imagem": "https://1.bp.blogspot.com/-FJC8K4q_IP0/XToPV3Rx2RI/AAAAAAAAC_c/XXJEdFmiJowXHW4XAJDUXh34s5uTRN8pgCLcBGAs/s1600/a-chegada-de-pedro-alvares-ao-brasil-1280x720.gif",
-        "Titulo": "Titulo",
-        "Enunciado": "Esse é um evento teste 1, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing",
-        "Pontos": 15
+        "Titulo": "A Arma Invisível",
+        "Enunciado": "Os Carijós eram altos, robustos e não se deixaram ser enganados pelos colonizadores lusitanos. Por conta disso, os portugueses não só iriam ativamente guerrar contra a tribo, como acabariam a exterminando com uma epidemia de varíola. Uma vitória para os portugueses, mas uma perda inestimável para a história da cultura indigena.\\n Você perdeu 10 pontos.",
+        "Pontos": 10
     }
 ]

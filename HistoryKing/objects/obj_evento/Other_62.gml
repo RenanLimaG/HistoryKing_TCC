@@ -25,7 +25,12 @@ if (ds_map_find_value(async_load, "id") == get)
 		
 		//Procedimento padrão para criar textos com Scribble
         //Ver em: https://www.jujuadams.com/Scribble/#/latest/
-        text_evento = scribble(atual_evento);
+        text_titulo = scribble(titulo);
+        text_titulo.starting_format("font_padrao", c_black);
+        text_titulo.align(fa_center,fa_middle);
+        text_titulo.wrap(440);
+		
+		text_evento = scribble(atual_evento);
         text_evento.starting_format("font_padrao_quiz", c_black);
         text_evento.align(fa_center,fa_middle);
         text_evento.wrap(440);
