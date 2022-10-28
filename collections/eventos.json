@@ -2,7 +2,7 @@
     {
         "Periodo": "1 - precolo",
         "Tipo": "bom",
-        "Imagem": "https://1.bp.blogspot.com/-FJC8K4q_IP0/XToPV3Rx2RI/AAAAAAAAC_c/XXJEdFmiJowXHW4XAJDUXh34s5uTRN8pgCLcBGAs/s1600/a-chegada-de-pedro-alvares-ao-brasil-1280x720.gif",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
         "Titulo": "O Primeiro Encontro",
         "Enunciado": "Nas costas brasileiras, os nativos tupis se encontram pela primeira vez com os portugueses. As primeiras relações são marcadas por desconfiança e temor, mas os navegadores lusitanos ainda não estavam lá para tomar suas terras.\\n Você ganhou 10 pontos!",
         "Pontos": 10
@@ -10,7 +10,7 @@
     {
         "Periodo": "1 - precolo",
         "Tipo": "ruim",
-        "Imagem": "https://1.bp.blogspot.com/-FJC8K4q_IP0/XToPV3Rx2RI/AAAAAAAAC_c/XXJEdFmiJowXHW4XAJDUXh34s5uTRN8pgCLcBGAs/s1600/a-chegada-de-pedro-alvares-ao-brasil-1280x720.gif",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
         "Titulo": "Guerreiros de Monan",
         "Enunciado": "Os colonos portugueses, com o trabalho braçal de uma tribo tupiniquim, estavam colhendo Pau-Brasil da região, quando foram pegos de surpresa por um ataque Tupinambá. A tribo não aceitaria tão facilmente a exploração lusitana de suas terras, e estavam prontos para lutar com honra e garra.\\n Você perdeu 10 pontos.",
         "Pontos": 10
@@ -18,7 +18,7 @@
     {
         "Periodo": "1 - precolo",
         "Tipo": "bom",
-        "Imagem": "https://1.bp.blogspot.com/-FJC8K4q_IP0/XToPV3Rx2RI/AAAAAAAAC_c/XXJEdFmiJowXHW4XAJDUXh34s5uTRN8pgCLcBGAs/s1600/a-chegada-de-pedro-alvares-ao-brasil-1280x720.gif",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
         "Titulo": "A Tribo Guerreira",
         "Enunciado": "Ao atravessar ainda mais a costa brasileira, os exploradores lusitanos se chocam ao descobrir uma tribo nova, diferente de todas as outras que haviam encontrado desde então. Os Tupinambás sabiam caçar, lutar e guerrear, além de praticar rituais antropofágicos, onde consumiam a carne dos adversários acreditando absorver a energia dos mesmos. Os colonos, porém, ainda não se mostraram dignos do ritual.\\n Você ganhou 5 pontos!",
         "Pontos": 5
@@ -26,17 +26,57 @@
     {
         "Periodo": "1 - precolo",
         "Tipo": "bom",
-        "Imagem": "https://1.bp.blogspot.com/-FJC8K4q_IP0/XToPV3Rx2RI/AAAAAAAAC_c/XXJEdFmiJowXHW4XAJDUXh34s5uTRN8pgCLcBGAs/s1600/a-chegada-de-pedro-alvares-ao-brasil-1280x720.gif",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
         "Titulo": "\"O Melhor Gentio\"",
-        "Enunciado": "Por sorte dos colonos, a proxima tribo que encontrariam seria de extrema ajuda para seus objetivos, além de serem bem receptivos aos invasores. Os Carijós conseguiram formar uma boa relação com os lusitanos, principalmente pelos seus costumes pacíficos e recepção a catequese cristã, sendo apelidados pelos colonizadores de \"melhor gentio da região\".\n Você ganhou 15 pontos!",
+        "Enunciado": "Por sorte dos colonos, a proxima tribo que encontrariam seria de extrema ajuda para seus objetivos, além de serem bem receptivos aos invasores. Os Carijós conseguiram formar uma boa relação com os lusitanos, principalmente pelos seus costumes pacíficos e recepção a catequese cristã, sendo apelidados pelos colonizadores de \"melhor gentio da região\".\\n Você ganhou 15 pontos!",
         "Pontos": 15
     },
     {
         "Periodo": "1 - precolo",
         "Tipo": "ruim",
-        "Imagem": "https://1.bp.blogspot.com/-FJC8K4q_IP0/XToPV3Rx2RI/AAAAAAAAC_c/XXJEdFmiJowXHW4XAJDUXh34s5uTRN8pgCLcBGAs/s1600/a-chegada-de-pedro-alvares-ao-brasil-1280x720.gif",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
         "Titulo": "A Arma Invisível",
-        "Enunciado": "Os Carijós eram altos, robustos e não se deixaram ser enganados pelos colonizadores lusitanos. Por conta disso, os portugueses não só iriam ativamente guerrar contra a tribo, como acabariam a exterminando com uma epidemia de varíola. Uma vitória para os portugueses, mas uma perda inestimável para a história da cultura indigena.\\n Você perdeu 10 pontos.",
+        "Enunciado": "Os Carijós eram altos, robustos e não se deixaram ser enganados pelos colonizadores lusitanos. Por conta disso, os portugueses não só iriam ativamente guerrear contra a tribo, como acabariam a exterminando com uma epidemia de varíola. Uma vitória para os portugueses, mas uma perda inestimável para a história da cultura indigena.\\n Você perdeu 10 pontos.",
         "Pontos": 10
+    },
+    {
+        "Periodo": "1 - precolo",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Mãos a Obra",
+        "Enunciado": "Mesmo sem planos atuais para se estabelecer nas recem descobertas terras brasileiras, Portugal não iria deixar passar a oportunidade de extrair o máximo de matéria prima da região. Para otimizar o trabalho, os portugueses logo construiram suas feitorias, aonde tudo relacionado ao mercado colonial iria ocorrer.\\n Você ganhou 15 pontos! ",
+        "Pontos": 15
+    },
+    {
+        "Periodo": "1 - precolo",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Demarcando Território",
+        "Enunciado": "Logo os exploradores lusitanos descobririam que o que haviam descoberto não era uma ilha, mas sim um território gigantesco. Quando as notícias sobre o tamanho do Brasil chegaram, a coroa portuguesa sabia que a sua administração não seria fácil. Para o momento, a divisão das terras em Capitanias Hereditárias teria que ser suficiente.\\n Você ganhou 10 pontos! ",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "1 - precolo",
+        "Tipo": "ruim",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Brasil Frances",
+        "Enunciado": "Nicolau Durand, e seu grupo de protestantes franceses, aproveitariam do descaso dos donos das capitanias brasileiras para invadir a Baía de Guanabara, formando ali a colônia de \"França Antártica\" . Os portugueses perderiam muitos homens e munição para expulsar os franceses dali, por conta da ajuda que os Tamaios e Tupinambas que eles receberam.\\n Você perdeu 5 pontos.",
+        "Pontos": 5
+    },
+    {
+        "Periodo": "1 - precolo",
+        "Tipo": "ruim",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Conquista Holandesa",
+        "Enunciado": "Além dos prostestantes franceses, os colonizadores tiveram que se procupar com outro inimigo muito maior: A Holanda. Os holandeses chegariam na Capitania de Pernambuco e tomariam posse do local, fazendo com que os portugueses levassem 10 anos para retomar o poder.\\n Você perdeu 10 pontos.",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "1 - precolo",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Pequenos Passos",
+        "Enunciado": "Mesmo que a maioria dos donatários acabaram por não se interessar na administração de suas capitanias, alguns até mesmo vendo o \"presente\" da coroa portuguesa como uma punição, dois deles conseguiram fazer um ótimo trabalho: Martim Afonso, com a Capitania de São Vicente, e Duarte Coelho, com a Capitania de Pernambuco. O segredo? Cultivo da cana-de-açucar.\\n Você ganhou 15 pontos!",
+        "Pontos": 15
     }
 ]

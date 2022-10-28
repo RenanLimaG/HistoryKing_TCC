@@ -9,7 +9,7 @@ get = http_get("https://us-east-1.aws.data.mongodb-api.com/app/historyking-dllqh
 
 if !ds_exists(global.lst_ordem, ds_type_list){
 			global.lst_ordem = ds_list_create();
-			for(var temp = 0;temp < 3;temp++){
+			for(var temp = 0;temp < 10;temp++){
 				ds_list_add(global.lst_ordem, temp);
 		    }
 		    ds_list_shuffle(global.lst_ordem);
