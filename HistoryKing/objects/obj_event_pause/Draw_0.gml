@@ -9,6 +9,7 @@ if(event_pause)
 	instance_deactivate_object(obj_player3);
 	instance_deactivate_object(obj_player4);
 	instance_deactivate_object(obj_round);
+	instance_deactivate_object(obj_seta);
 	
 	
 	pauseSurf = surface_create(resW,resH);
