@@ -78,5 +78,53 @@
         "Titulo": "Pequenos Passos",
         "Enunciado": "Mesmo que a maioria dos donatários acabaram por não se interessar na administração de suas capitanias, alguns até mesmo vendo o \"presente\" da coroa portuguesa como uma punição, dois deles conseguiram fazer um ótimo trabalho: Martim Afonso, com a Capitania de São Vicente, e Duarte Coelho, com a Capitania de Pernambuco. O segredo? Cultivo da cana-de-açucar.\\n Você ganhou 15 pontos!",
         "Pontos": 15
+    },
+    {
+        "Periodo": "2 - coloniza",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Recomeço",
+        "Enunciado": "A coroa portuguesa percebeu que, se continuassem negligenciando a sua nova colônia na América do Sul, acabariam perdendo ela para os franceses, holandeses ou outros adversários. Com isso, em 1548, o rei D. João III nomeia o fidalgo Tomé de Souza como Governador-Geral, e a capitania da Bahia como Capitania Real.\\n Você ganhou 10 pontos!",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "2 - coloniza",
+        "Tipo": "ruim",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Povo Indomável",
+        "Enunciado": "Com novos planos de explorar as terras ao oeste, e o plantio da cana-de-açucar, os colonos lusitanos precisavam mais do que nunca de mão de obra. Eles acharam que a solução seria a dominação dos povos nativos, mas logo perceberam que os indigenas não aceitariam essa nova realidade tão facilmente, mesmo que sua \"teimosia\" levasse a morte.\\n Você perdeu 10 pontos.",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "2 - coloniza",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Periodo do Açucar",
+        "Enunciado": "Com as mudanças no cenário colonial brasileiro, como a formação de vilas e o esgotamento de pau-brasil no litoral, se fazia necessário uma mudança drastica na economia do local. Por sorte, Portugal conhecia uma matéria prima que já gerava bastante lucro em suas colonias mais antigas: A cana-de-açucar.\\n Você ganhou 15 pontos!",
+        "Pontos": 15
+    },
+    {
+        "Periodo": "2 - coloniza",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "As Primeiras Vilas",
+        "Enunciado": "Como resultado das novas políticas da coroa em relação ao Brasil, mais portugueses se sentiriam atraídos com a ideia de uma vida nova nas colonias nas Américas. Para abrigar essa nova onda de colonos, o Capitão-Mor Martin Afonso de Souza seria encarregado de construir novas vilas no litoral, surgindo assim as vilas de São Vicente, Piratininga, e outras.\\n Você ganhou 10 pontos!",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "2 - coloniza",
+        "Tipo": "ruim",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Guerra Guaranítica",
+        "Enunciado": "As tentativas dos bandeirantes em aprisionar os indígenas culminaria em um confronto sangrento, entre as forças de Portugal e a população da região de Sete Povos das Missões, território jesuíta. Os religiosos lutaram junto com os índios, e o massacre acabou na morte de 1511 guaranis.\\n Você perdeu 15 pontos.",
+        "Pontos": 15
+    },
+    {
+        "Periodo": "2 - coloniza",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "As Missões",
+        "Enunciado": "Junto com a nova onda de colonos, que buscariam empreendimentos e riquezas no Brasil, vieram também muitos religiosos. Entre estes podemos destacar os Jesuitas, que tiveram um papel muito importante na proteção das vidas indigenas. As missões jesuitas aceitariam nativos e proporcionariam educação em seus colégios, mas teriam que ser catequisados e forçados a seguir um padrão de vida europeu.\\n Você ganhou 5 pontos!",
+        "Pontos": 5
     }
 ]
