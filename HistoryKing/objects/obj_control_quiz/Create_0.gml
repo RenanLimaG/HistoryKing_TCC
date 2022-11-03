@@ -21,11 +21,13 @@ switch(global.round){
 		    }
 		    ds_list_shuffle(global.lst_ordem);
 		    }
-
-            //Procediemento de escolher um item aleatória do array de perguntas, e definindo 
-		    //as variaveis conforme o item escolhido
-            ordem = ds_list_find_value(global.lst_ordem, 0);
-		    ds_list_delete(global.lst_ordem, 0);
+			ordem = ds_list_find_value(global.lst_ordem, 0);
+			ds_list_delete(global.lst_ordem, 0);
+			
+			for(var i = 0;i < 11;i++){
+				string_lst = ds_list_find_value(global.lst_ordem, i);
+				show_debug_message("lst_ordem:"+string(string_lst));
+		    }
 	
 		break;
 		
@@ -40,11 +42,14 @@ switch(global.round){
 		    }
 		    ds_list_shuffle(global.lst_ordem);
 		    }
+			ordem = ds_list_find_value(global.lst_ordem, 0);
+			ds_list_delete(global.lst_ordem, 0);
+			
+			for(var i = 0;i < 14;i++){
+				string_lst = ds_list_find_value(global.lst_ordem, i);
+				show_debug_message("lst_ordem:"+string(string_lst));
+		    }
 
-            //Procediemento de escolher um item aleatória do array de perguntas, e definindo 
-		    //as variaveis conforme o item escolhido
-            ordem = ds_list_find_value(global.lst_ordem, 0);
-		    ds_list_delete(global.lst_ordem, 0);
 		break;
 		
 		case 8:
@@ -58,11 +63,14 @@ switch(global.round){
 		    }
 		    ds_list_shuffle(global.lst_ordem);
 		    }
+			ordem = ds_list_find_value(global.lst_ordem, 0);
+			ds_list_delete(global.lst_ordem, 0);
+			
+			for(var i = 0;i < 14;i++){
+				string_lst = ds_list_find_value(global.lst_ordem, i);
+				show_debug_message("lst_ordem:"+string(string_lst));
+		    }
 
-            //Procediemento de escolher um item aleatória do array de perguntas, e definindo 
-		    //as variaveis conforme o item escolhido
-            ordem = ds_list_find_value(global.lst_ordem, 0);
-		    ds_list_delete(global.lst_ordem, 0);
 		break;
 	}
 

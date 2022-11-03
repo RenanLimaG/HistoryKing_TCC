@@ -28,6 +28,10 @@ switch(global.game_state){
 	case state.startTurn :
 	switch(global.round){
 		case 4:
+		ds_list_destroy(global.lst_ordem);
+		global.lst_ordem = 0;
+		ds_list_destroy(global.lst_ordem_evento);
+		global.lst_ordem_evento = 0;
 		position[8] = instance_create_layer(480,560,"Positions",obj_position);
 	    position[9] = instance_create_layer(412,465,"Positions",obj_position);
 	    position[10] = instance_create_layer(522,398,"Positions",obj_position);
@@ -36,6 +40,10 @@ switch(global.game_state){
 	    position[13] = instance_create_layer(590,175,"Positions",obj_position);
 		break;
 		case 8:
+		ds_list_destroy(global.lst_ordem);
+		global.lst_ordem = 0;
+		ds_list_destroy(global.lst_ordem_evento);
+		global.lst_ordem_evento = 0;
 		position[14] = instance_create_layer(500,181,"Positions",obj_position);
 	    position[15] = instance_create_layer(427,253,"Positions",obj_position);
 	    position[16] = instance_create_layer(326,289,"Positions",obj_position);

@@ -5,18 +5,18 @@ if (ds_map_find_value(async_load, "id") == get)
     if (ds_map_find_value(async_load, "status") == 0)
     {
         var result = ds_map_find_value(async_load, "result");
-		show_debug_message(result);
+		//show_debug_message(result);
 		var resultMap = json_decode(result);
 		var list = ds_map_find_value(resultMap,"default");
 	
 		var map = ds_list_find_value(list,ordem);
 		
 		atual_pergunta = ds_map_find_value(map, "Enunciado");
-		show_debug_message(atual_pergunta);
+		//show_debug_message(atual_pergunta);
         resposta = ds_map_find_value(map, "Resposta");
 	/*	show_debug_message(resposta_index);
         resposta = ds_map_find_value(map, string(resposta_index));*/
-		show_debug_message(resposta);
+		//show_debug_message(resposta);
 		
 		//Procedimento padrão para criar textos com Scribble
         //Ver em: https://www.jujuadams.com/Scribble/#/latest/

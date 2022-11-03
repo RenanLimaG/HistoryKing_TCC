@@ -5,22 +5,22 @@ if (ds_map_find_value(async_load, "id") == get)
     if (ds_map_find_value(async_load, "status") == 0)
     {
         var result = ds_map_find_value(async_load, "result");
-		show_debug_message(result);
+		//show_debug_message(result);
 		var resultMap = json_decode(result);
 		var list = ds_map_find_value(resultMap,"default");
 	
 		var map = ds_list_find_value(list,ordem);
-		show_debug_message(ordem);
+		//show_debug_message(ordem);
 		
 		atual_evento = ds_map_find_value(map, "Enunciado");
 		show_debug_message("");
-		show_debug_message(atual_evento);
+		//show_debug_message(atual_evento);
 		titulo = ds_map_find_value(map, "Titulo");
         pontos = ds_map_find_value(map, "Pontos");
         tipo_evento = ds_map_find_value(map, "Tipo");
 		imagem_url = ds_map_find_value(map, "Imagem");
 		show_debug_message("");
-		show_debug_message(imagem_url);
+		//show_debug_message(imagem_url);
 		imagem = sprite_add(imagem_url, 0, false, false, 0, 0);
 		
 		//Procedimento padrão para criar textos com Scribble
