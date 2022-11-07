@@ -2,6 +2,7 @@
 // You can write your code in this editor
 //Code by Shaun Spalding
 event_pause = false;
+event_final = false;
 pauseSurf = -1;
 pauseSurfBuffer = -1;
 

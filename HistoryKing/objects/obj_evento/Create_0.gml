@@ -36,7 +36,27 @@ switch(global.round){
 	    case 7:
 		if !ds_exists(global.lst_ordem_evento, ds_type_list){
 			global.lst_ordem_evento = ds_list_create();
-			for(var temp = 10;temp < 20;temp++){
+			for(var temp = 10;temp < 21;temp++){
+				ds_list_add(global.lst_ordem_evento, temp);
+		    }
+		    ds_list_shuffle(global.lst_ordem_evento);
+		    }
+			ordem = ds_list_find_value(global.lst_ordem_evento, 0);
+			ds_list_delete(global.lst_ordem_evento, 0);
+			
+			for(var i = 0;i < 10;i++){
+				string_lst = ds_list_find_value(global.lst_ordem_evento, i);
+				show_debug_message("lst_ordem_evento:"+string(string_lst));
+		    }
+
+		break;
+		case 8:
+	    case 9:
+	    case 10:
+	    case 11:
+		if !ds_exists(global.lst_ordem_evento, ds_type_list){
+			global.lst_ordem_evento = ds_list_create();
+			for(var temp = 21;temp < 31;temp++){
 				ds_list_add(global.lst_ordem_evento, temp);
 		    }
 		    ds_list_shuffle(global.lst_ordem_evento);

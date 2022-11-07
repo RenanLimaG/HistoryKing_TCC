@@ -16,7 +16,7 @@ if (ds_map_find_value(async_load, "id") == get)
         resposta = ds_map_find_value(map, "Resposta");
 	/*	show_debug_message(resposta_index);
         resposta = ds_map_find_value(map, string(resposta_index));*/
-		//show_debug_message(resposta);
+		show_debug_message(resposta);
 		
 		//Procedimento padrão para criar textos com Scribble
         //Ver em: https://www.jujuadams.com/Scribble/#/latest/
@@ -43,11 +43,12 @@ if (ds_map_find_value(async_load, "id") == get)
 		ds_map_destroy(resultMap);
 		
 		global.error = "";
+		global.loading = false;
     }
 	else
 	{
+		global.loading = true;
 		global.error = "Database not found";
 	}
 	
-	global.loading = false;
 }

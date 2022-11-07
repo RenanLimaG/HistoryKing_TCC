@@ -16,7 +16,7 @@ switch(global.round){
 		case 3:
 		  if !ds_exists(global.lst_ordem, ds_type_list){
 			global.lst_ordem = ds_list_create();
-			for(var temp = 0;temp < 11;temp++){
+			for(var temp = 0;temp < 12;temp++){
 				ds_list_add(global.lst_ordem, temp);
 		    }
 		    ds_list_shuffle(global.lst_ordem);
@@ -28,6 +28,8 @@ switch(global.round){
 				string_lst = ds_list_find_value(global.lst_ordem, i);
 				show_debug_message("lst_ordem:"+string(string_lst));
 		    }
+			show_debug_message("\n");
+			show_debug_message(ordem);
 	
 		break;
 		
@@ -37,7 +39,7 @@ switch(global.round){
 	    case 7:
 		if !ds_exists(global.lst_ordem, ds_type_list){
 			global.lst_ordem = ds_list_create();
-			for(var temp = 12;temp < 26;temp++){
+			for(var temp = 12;temp < 27;temp++){
 				ds_list_add(global.lst_ordem, temp);
 		    }
 		    ds_list_shuffle(global.lst_ordem);
@@ -49,6 +51,8 @@ switch(global.round){
 				string_lst = ds_list_find_value(global.lst_ordem, i);
 				show_debug_message("lst_ordem:"+string(string_lst));
 		    }
+			show_debug_message("\n");
+			show_debug_message(ordem);
 
 		break;
 		
@@ -58,7 +62,7 @@ switch(global.round){
 	    case 11:
 		if !ds_exists(global.lst_ordem, ds_type_list){
 			global.lst_ordem = ds_list_create();
-			for(var temp = 27;temp < 35;temp++){
+			for(var temp = 27;temp < 36;temp++){
 				ds_list_add(global.lst_ordem, temp);
 		    }
 		    ds_list_shuffle(global.lst_ordem);
@@ -70,6 +74,8 @@ switch(global.round){
 				string_lst = ds_list_find_value(global.lst_ordem, i);
 				show_debug_message("lst_ordem:"+string(string_lst));
 		    }
+			show_debug_message("\n");
+			show_debug_message(ordem);
 
 		break;
 	}

@@ -126,5 +126,125 @@
         "Titulo": "As Missões",
         "Enunciado": "Junto com a nova onda de colonos, que buscariam empreendimentos e riquezas no Brasil, vieram também muitos religiosos. Entre estes podemos destacar os Jesuitas, que tiveram um papel muito importante na proteção das vidas indigenas. As missões jesuitas aceitariam nativos e proporcionariam educação em seus colégios, mas teriam que ser catequisados e forçados a seguir um padrão de vida europeu.\\n Você ganhou 5 pontos!",
         "Pontos": 5
+    },
+    {
+        "Periodo": "2 - coloniza",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Expedição Mineira",
+        "Enunciado": "Antes interessados apenas nas regiões do litoral, as regiões ao oeste seriam melhor exploradas durante o período das \"bandeiras\", aonde os chamados bandeirantes desbravariam a mata e formariam novos caminhos. As bandeiras mais lucrativas foram da região de Minas, aonde eles finalmente encontraram ouro e pedras preciosas.\\n Você ganhou 10 pontos!",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "2 - coloniza",
+        "Tipo": "ruim",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "A Escravidão Africana",
+        "Enunciado": "Os novos engenhos de açucar precisavam de mão de obra, e os colonos não conseguiram se apropriar dos nativos. Com isso, os portugueses escolheram se aproveitar das suas feitorias em Angola e Moçambique para realizar o trafico de escravos, uma prática que perduraria por muitos anos no Brasil, e seria responsável por problemas sociais até os dias de hoje.\\n Você perdeu 10 pontos.",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "2 - coloniza",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Troca da Capital",
+        "Enunciado": "Salvador serviu como uma capital para a colonia do Brasil por muito tempo. Mas com as recentes mudanças econômicas, principalmente na exploração do ouro em Minas Gerais, se tornou necessário escolher uma nova capital que atendesse as novas necessidades. A vila escolhida foi a do Rio de Janeiro, que manteria seu status como capital do Brasil por muitos anos.\\n Você ganhou 5 pontos!",
+        "Pontos": 5
+    },
+    {
+        "Periodo": "2 - coloniza",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Revolução!",
+        "Enunciado": "O status do Brasil como simples colônia de Portugal estava começando a incomodar algumas pessoas. Grupos como o de Tiradentes, responsáveis pela Conjuração Mineira, lutariam contra o atual sistema colonial. Trazendo a tona um novo sentimento ao povo brasileiro: Desejo por independência.\\n Você ganhou 15 pontos!",
+        "Pontos": 15
+    },
+    {
+        "Periodo": "2 - coloniza",
+        "Tipo": "ruim",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Brasil Holandes",
+        "Enunciado": "A Companhia das Índias Ocidentais, empresa criada pelos Holandeses para administrar a exploração da cana-de-açucar nas américas, decidiu por invadir territórios do Brasil para fixar polos de exploração no Nordeste. Aconteceria então uma grande revolta entre os portugueses e os holandeses por controle das regiões do nordeste, recebendo o nome de \"Insurreição Pernambucana\".\\n Você perdeu 10 pontos.",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "3 - imperial",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "A Família Real",
+        "Enunciado": "Uma ótima notícia chega aos portos brasileiros: A Família Real está para embarcar no Brasil. Boatos se espalham que eles estariam escapando de um avanço das tropas de Napoleão em Portugal, com a ajuda de embarcações da Inglaterra, e que a visita pode durar bastante tempo.\\n Você ganhou 15 pontos!",
+        "Pontos": 15
+    },
+    {
+        "Periodo": "3 - imperial",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "A Gazeta",
+        "Enunciado": "Extra! Extra! Os brasileiros recebem pela primeira vez a edição de um jornal manufaturado em território brasileiro, a \"Gazeta do Rio de Janeiro\". Tal avanço se deve as demandas da recem chegada família real, e a construção das primeiras oficinas tipográficas por eles bancados.\\n Você ganhou 10 pontos!",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "3 - imperial",
+        "Tipo": "ruim",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Ataque Vingativo",
+        "Enunciado": "A chegada de D. João VI, junto da família real, prometeu mudanças positivas para o Brasil da época. Vários beneficios realmente vieram para os brasileiros, mas junto delas o rei português decidiu por invadir os territórios da Guiana e da Cisplatina, antes terras da França. Esse ataque, mesmo com o pretexto de retaliação a Napoleão, traria dificuldades no futuro.\\n Você perdeu 5 pontos.",
+        "Pontos": 5
+    },
+    {
+        "Periodo": "3 - imperial",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Amigos Ingleses",
+        "Enunciado": "A Inglaterra, procurando por nações para se tornarem seus consumidores, decidiu por ajudar a família real portuguesa melhorar a infraestrutura do Brasil. O plano se concretizou pouco tempo depois, com o decreto de D. João VI abrindo os portos a \"Nações Amigas\", e a Inglaterra ganharia mais clientes para vender.\\n Você ganhou 5 pontos!",
+        "Pontos": 5
+    },
+    {
+        "Periodo": "3 - imperial",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Principe Rebelde",
+        "Enunciado": "Com a situação em Portugal estabilizada, e com a pressão dos portugueses pela volta do seu rei, a família real decidiu por voltar a sua terra natal. Essa decisão, porém, não estaria nos planos do príncipe regente Pedro de Alcântra, que se recusou a voltar para Portugal, em uma data que ficou conhecida como \"Dia do Fico\".\\n Você ganhou 10 pontos!",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "3 - imperial",
+        "Tipo": "ruim",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Fim do Açucar",
+        "Enunciado": "Por muito tempo protagonista da economia brasileira, o plantio da cana-de-açucar começava a perder o seu valor, principalmente por conta da competição com os Holandeses e seus plantios no Caribe. Um novo produto tentaria tomar o lugar de carro chefe da economia, apelidado de \"Ouro Verde\": O Café.\\n Você perdeu 10 pontos.",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "3 - imperial",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "Independência, ou Morte!",
+        "Enunciado": "O novo Imperador do Brasil, D. Pedro I, realizava o famoso evento do Grito do Ipiranga, proclamando logo em seguida a independência do Brasil. Além do Imperador, outros atores tiveram um papel importante nessa fase da história, como o ministro José Bonifácio e a Imperatriz Maria Leopoldina.\\n Você ganhou 15 pontos!",
+        "Pontos": 15
+    },
+    {
+        "Periodo": "3 - imperial",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "O Sucessor",
+        "Enunciado": "O Imperador D. Pedro I decidiria por deixar o Brasil e retornar para Portugal, para reivindicar o trono de sua filha. Para que o Brasil não ficasse sem um lider, os ministros seriam encarregados de controlar o país enquanto o príncipe D. Pedro II não atingia a maioridade, em o que ficou conhecido como \"Período Regencial\".\\n Você ganhou 5 pontos!",
+        "Pontos": 5
+    },
+    {
+        "Periodo": "3 - imperial",
+        "Tipo": "ruim",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "A Crise do 1º Reinado",
+        "Enunciado": "Vários grupos ficariam insatisfeitos com as atitudes anti-republicanas de D. Pedro I, principalmente a criação do Poder Moderador. Estes grupos iriam realizar protestos e revoltas separatistas por todo o Brasil: A Guerra da Cisplatina; A Confederação do Equador; A Noite das Garrafadas; etc.\\n Você perdeu 10 pontos.",
+        "Pontos": 10
+    },
+    {
+        "Periodo": "3 - imperial",
+        "Tipo": "bom",
+        "Imagem": "https://i.imgur.com/gfAD3fo.png",
+        "Titulo": "A Constituição",
+        "Enunciado": "No ano de 1824, D. Pedro I e uma comissão de legisladores escreveriam a primeira Constituição do Brasil, oficializando a independência da antiga colônia. A carta vigoraria por 65 anos, sendo substituida apenas em 1891, com a proclamação da República.\\n Você ganhou 10 pontos!",
+        "Pontos": 10
     }
 ]

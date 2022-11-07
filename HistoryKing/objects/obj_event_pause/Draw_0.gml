@@ -41,4 +41,31 @@ if(event_pause)
 	}
 	
 }
+if(event_final){
+	
+	instance_deactivate_object(obj_control_tabuleiro);
+	instance_deactivate_object(obj_player1);
+	instance_deactivate_object(obj_player2);
+	instance_deactivate_object(obj_player3);
+	instance_deactivate_object(obj_player4);
+	instance_deactivate_object(obj_round);
+	instance_deactivate_object(obj_seta);
+	
+	pauseSurf = surface_create(resW,resH);
+	surface_set_target(pauseSurf);
+	draw_surface(application_surface,0,0);
+	surface_reset_target();
+	
+	if(buffer_exists(pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);
+	pauseSurfBuffer = buffer_create(resW * resH * 4, buffer_fixed, 1);
+	buffer_get_surface(pauseSurfBuffer, pauseSurf, 0);
+	
+	global.text_vitoria.draw(640,360);
+	
+	if(keyboard_check_pressed(vk_space))
+	{
+		game_restart();	
+	}
+	
+}
 
