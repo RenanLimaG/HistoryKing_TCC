@@ -28,10 +28,6 @@ switch(global.game_state){
 	case state.startTurn :
 	switch(global.round){
 		case 4:
-		ds_list_destroy(global.lst_ordem);
-		global.lst_ordem = 0;
-		ds_list_destroy(global.lst_ordem_evento);
-		global.lst_ordem_evento = 0;
 		position[8] = instance_create_layer(480,560,"Positions",obj_position);
 	    position[9] = instance_create_layer(412,465,"Positions",obj_position);
 	    position[10] = instance_create_layer(522,398,"Positions",obj_position);
@@ -40,10 +36,6 @@ switch(global.game_state){
 	    position[13] = instance_create_layer(590,175,"Positions",obj_position);
 		break;
 		case 8:
-		ds_list_destroy(global.lst_ordem);
-		global.lst_ordem = 0;
-		ds_list_destroy(global.lst_ordem_evento);
-		global.lst_ordem_evento = 0;
 		position[14] = instance_create_layer(500,181,"Positions",obj_position);
 	    position[15] = instance_create_layer(427,253,"Positions",obj_position);
 	    position[16] = instance_create_layer(326,289,"Positions",obj_position);
@@ -140,7 +132,7 @@ switch(global.game_state){
 	break;
 	
 	case state.endTurn:
-	if(global.round < 26){
+	if(global.round < 12){
 		global.round++;
 		instance_destroy(obj_round);
 		instance_create_layer(32,32,"Instances", obj_round);
@@ -149,6 +141,41 @@ switch(global.game_state){
 	else{
 		global.game_state = state.endGame;
 	}
+	break;
+	
+	case state.endGame:
+	if(global.scoreP1 > global.scoreP2 && global.scoreP1 > global.scoreP3 && global.scoreP1 > global.scoreP4){
+		text_vitoria = scribble("O jogador 1 venceu!");
+	    text_vitoria.starting_format("font_padrao", c_black);
+	    text_vitoria.align(fa_center,fa_middle);
+	} else if(global.scoreP2 > global.scoreP1 && global.scoreP2 > global.scoreP3 && global.scoreP2 > global.scoreP4){
+		text_vitoria = scribble("O jogador 2 venceu!");
+	    text_vitoria.starting_format("font_padrao", c_black);
+	    text_vitoria.align(fa_center,fa_middle);
+	} else if(global.scoreP3 > global.scoreP2 && global.scoreP3 > global.scoreP1 && global.scoreP3 > global.scoreP4){
+		text_vitoria = scribble("O jogador 3 venceu!");
+	    text_vitoria.starting_format("font_padrao", c_black);
+	    text_vitoria.align(fa_center,fa_middle);
+	} else if(global.scoreP4 > global.scoreP2 && global.scoreP4 > global.scoreP3 && global.scoreP4 > global.scoreP1){
+		text_vitoria = scribble("O jogador 4 venceu!");
+	    text_vitoria.starting_format("font_padrao", c_black);
+	    text_vitoria.align(fa_center,fa_middle);
+	}
+	
+	instance_deactivate_object(obj_player1);
+	instance_deactivate_object(obj_player2);
+	instance_deactivate_object(obj_player3);
+	instance_deactivate_object(obj_player4);
+	instance_deactivate_object(obj_round);
+	instance_deactivate_object(obj_seta);
+	
+	text_vitoria.draw(640,360);
+	
+	if(keyboard_check_pressed(vk_space))
+	{
+		game_restart();	
+	}
+	
 	break;
 	
 }

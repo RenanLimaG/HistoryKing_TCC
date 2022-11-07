@@ -31,11 +31,6 @@ if(event_pause)
 		if(keyboard_check_pressed(vk_space))
 		{
 			instance_activate_all();
-		
-			with(obj_evento){
-				ds_list_destroy(global.lst_ordem);
-		        global.lst_ordem = 0;
-			}
 			instance_destroy(obj_evento);
 		
 			if(surface_exists(pauseSurf)) surface_free(pauseSurf);
