@@ -38,6 +38,8 @@ if(global.event_pause)
 			if(buffer_exists(pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);
 		
 			global.event_pause = false;
+			
+			scr_turn_loop();
 		}
 	}
 	

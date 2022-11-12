@@ -17,11 +17,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 20;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -42,9 +46,14 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 17;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
 						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -65,9 +74,14 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 15;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
+						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -85,9 +99,14 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 17;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
 						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -108,9 +127,14 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 14;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
+						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -128,9 +152,14 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 15;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
+						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -151,9 +180,14 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 14;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
+						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -174,9 +208,14 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 13;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
 						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -194,9 +233,14 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 12;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
 						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -214,9 +258,14 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 15;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
 						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -234,9 +283,14 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 19;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
 						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -257,10 +311,14 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 14;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
-						
+						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -278,11 +336,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 12;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -299,11 +361,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 11;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -320,11 +386,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 16;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -341,11 +411,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 18;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -365,11 +439,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 15;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -386,11 +464,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 11;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -407,11 +489,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 17;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -428,11 +514,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 19;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -453,11 +543,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 9;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -474,11 +568,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 11;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -495,11 +593,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 16;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -520,11 +622,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 14;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -541,11 +647,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 15;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -562,11 +672,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 19;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -587,11 +701,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 18;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -608,11 +726,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 10;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -633,11 +755,15 @@ function scr_movement_imperial(player, position){
 						with(player){
 							pos = 8;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}

@@ -32,6 +32,7 @@ function scr_event(tipo_evento, pontos){
 		else if(tipo_evento == "ruim"){
 			global.scoreP3 -= pontos;
 		}
+		
 		instance_destroy(obj_score);
 		instance_create_layer(32,32,"Instances", obj_score);
 		break;
@@ -43,6 +44,7 @@ function scr_event(tipo_evento, pontos){
 		else if(tipo_evento == "ruim"){
 			global.scoreP4 -= pontos;
 		}
+		
 		instance_destroy(obj_score);
 		instance_create_layer(32,32,"Instances", obj_score);
 		break;

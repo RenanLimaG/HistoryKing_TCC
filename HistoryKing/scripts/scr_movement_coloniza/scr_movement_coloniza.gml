@@ -15,9 +15,14 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 13;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
+						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -37,9 +42,14 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 12;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
+						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -57,9 +67,14 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 13;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
+						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -80,9 +95,14 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 10;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
+						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -100,9 +120,14 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 12;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
 						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -123,9 +148,14 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 10;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
 						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -146,9 +176,14 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 8;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
 						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -166,9 +201,14 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 10;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
 						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -189,10 +229,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 7;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						
+						}
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
 						}
 						mouse_clear(mb_any);
 					}
@@ -210,11 +255,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 9;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -234,11 +283,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 8;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -255,11 +308,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 10;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -276,11 +333,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 11;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -301,11 +362,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -322,11 +387,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 7;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -343,11 +412,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 9;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -364,11 +437,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 11;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -385,11 +462,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 12;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -409,11 +490,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 9;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -430,11 +515,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 10;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -451,11 +540,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 12;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -475,11 +568,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -496,11 +593,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -517,11 +618,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 10;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -538,11 +643,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 11;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -559,11 +668,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 13;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -583,11 +696,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 2;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -604,11 +721,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
@@ -625,11 +746,15 @@ function scr_movement_coloniza(player, position){
 						with(player){
 							pos = 12;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
-						
+						if(new_position){
+							global.event_pause = true;
+							new_position = false;
+						} 
+						else{
+							new_position = false;
+							scr_turn_loop();
+						}
 						mouse_clear(mb_any);
 					}
 				}
