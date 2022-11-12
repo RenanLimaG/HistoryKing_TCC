@@ -11,11 +11,12 @@ if(event_pause)
 	instance_deactivate_object(obj_round);
 	instance_deactivate_object(obj_seta);
 	
-	
-	pauseSurf = surface_create(resW,resH);
-	surface_set_target(pauseSurf);
-	draw_surface(application_surface,0,0);
-	surface_reset_target();
+	if(!surface_exists(pauseSurf)){
+		pauseSurf = surface_create(resW,resH);
+		surface_set_target(pauseSurf);
+		draw_surface(application_surface,0,0);
+		surface_reset_target();
+	}
 	
 	if(buffer_exists(pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);
 	pauseSurfBuffer = buffer_create(resW * resH * 4, buffer_fixed, 1);
