@@ -87,6 +87,7 @@
     {"id":{"name":"scribble_font_set_default","path":"scripts/scribble_font_set_default/scribble_font_set_default.yy",},"order":11,},
     {"id":{"name":"scribble_anim_wheel","path":"scripts/scribble_anim_wheel/scribble_anim_wheel.yy",},"order":8,},
     {"id":{"name":"__scribble_font_add_all_from_project","path":"scripts/__scribble_font_add_all_from_project/__scribble_font_add_all_from_project.yy",},"order":5,},
+    {"id":{"name":"scr_turn_loop","path":"scripts/scr_turn_loop/scr_turn_loop.yy",},"order":8,},
     {"id":{"name":"spr_evento","path":"sprites/spr_evento/spr_evento.yy",},"order":6,},
     {"id":{"name":"scr_shadow","path":"scripts/scr_shadow/scr_shadow.yy",},"order":7,},
     {"id":{"name":"scribble_external_sound_exists","path":"scripts/scribble_external_sound_exists/scribble_external_sound_exists.yy",},"order":3,},

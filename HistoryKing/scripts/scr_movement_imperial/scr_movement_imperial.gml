@@ -440,6 +440,73 @@ function scr_movement_imperial(player, position){
 			
 			break;
 			
+			case 17:
+			with(position[9]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
+				if mouse_check_button_pressed(mb_left){
+					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
+						with(player){
+							pos = 9;
+							mouse_clear(mb_any);
+							with(obj_event_pause){
+								event_pause = true;
+							}
+						}
+						
+						mouse_clear(mb_any);
+					}
+				}
+			}
+			with(position[11]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
+				if mouse_check_button_pressed(mb_left){
+					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
+						with(player){
+							pos = 11;
+							mouse_clear(mb_any);
+							with(obj_event_pause){
+								event_pause = true;
+							}
+						}
+						
+						mouse_clear(mb_any);
+					}
+				}
+			}
+			with(position[16]){
+				if (instance_position(mouse_x,mouse_y,self)){
+					available = true;
+				} else{
+					available = false;
+				}
+				if mouse_check_button_pressed(mb_left){
+					if collision_point(mouse_x, mouse_y, self, true, false){
+						available = false;
+						with(player){
+							pos = 16;
+							mouse_clear(mb_any);
+							with(obj_event_pause){
+								event_pause = true;
+							}
+						}
+						
+						mouse_clear(mb_any);
+					}
+				}
+			}
+			
+			break;
+			
 			case 18:
 			with(position[14]){
 				if (instance_position(mouse_x,mouse_y,self)){

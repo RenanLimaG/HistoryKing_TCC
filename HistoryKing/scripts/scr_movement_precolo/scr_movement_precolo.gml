@@ -16,10 +16,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 1;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -36,10 +38,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -56,10 +60,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 4;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -79,10 +85,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 0;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -99,10 +107,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 2;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -119,10 +129,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -142,10 +154,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 1;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -162,10 +176,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -185,10 +201,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 0;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -205,10 +223,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 1;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -225,10 +245,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 2;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -246,10 +268,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -269,10 +293,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 0;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -290,10 +316,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -310,10 +338,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 6;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -333,10 +363,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 0;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -353,10 +385,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 3;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -373,10 +407,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 4;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -393,10 +429,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 6;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -413,10 +451,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 7;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -436,10 +476,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 4;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -456,10 +498,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -476,10 +520,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 7;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -499,10 +545,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 5;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}
@@ -519,10 +567,12 @@ function scr_movement_precolo(player, position){
 						with(player){
 							pos = 6;
 							mouse_clear(mb_any);
-							with(obj_event_pause){
-								event_pause = true;
-							}
 						}
+						if(new_position){
+							global.event_pause = true;
+						}
+						new_position = false;
+						scr_turn_loop();
 						mouse_clear(mb_any);
 					}
 				}

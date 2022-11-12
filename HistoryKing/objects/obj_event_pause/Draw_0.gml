@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(event_pause)
+if(global.event_pause)
 {	
 
 	instance_deactivate_object(obj_control_tabuleiro);
@@ -37,7 +37,7 @@ if(event_pause)
 			if(surface_exists(pauseSurf)) surface_free(pauseSurf);
 			if(buffer_exists(pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);
 		
-			event_pause = false;
+			global.event_pause = false;
 		}
 	}
 	
