@@ -6,3 +6,4 @@ if(available == true){
 else{
 	draw_self();
 }
+

@@ -19,6 +19,8 @@ else if(global.num_jogs == 4){
 	global.scoreP4 = 0;
 }
 
+round_4 = true;
+round_8 = true;
 gc_collect();
 
 

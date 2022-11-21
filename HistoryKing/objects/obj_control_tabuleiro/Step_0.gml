@@ -28,21 +28,37 @@ switch(global.game_state){
 	case state.startTurn :
 	switch(global.round){
 		case 4:
-		position[8] = instance_create_layer(480,560,"Positions",obj_position);
-	    position[9] = instance_create_layer(412,465,"Positions",obj_position);
-	    position[10] = instance_create_layer(522,398,"Positions",obj_position);
-	    position[11] = instance_create_layer(437,359,"Positions",obj_position);
-	    position[12] = instance_create_layer(530,273,"Positions",obj_position);
-	    position[13] = instance_create_layer(590,175,"Positions",obj_position);
+		if(round_4){
+			position[8] = instance_create_layer(480,560,"Positions",obj_position);
+			position[9] = instance_create_layer(412,465,"Positions",obj_position);
+			position[10] = instance_create_layer(522,398,"Positions",obj_position);
+			position[11] = instance_create_layer(437,359,"Positions",obj_position);
+			position[12] = instance_create_layer(530,273,"Positions",obj_position);
+			position[13] = instance_create_layer(590,175,"Positions",obj_position);
+			for(var i = 0; i <=13; i++){
+				with(position[i]){
+					new_position = true;
+				}
+			}
+			round_4 = false;
+		}
 		break;
 		case 8:
-		position[14] = instance_create_layer(500,181,"Positions",obj_position);
-	    position[15] = instance_create_layer(427,253,"Positions",obj_position);
-	    position[16] = instance_create_layer(326,289,"Positions",obj_position);
-	    position[17] = instance_create_layer(343,382,"Positions",obj_position);
-	    position[18] = instance_create_layer(401,153,"Positions",obj_position);
-	    position[19] = instance_create_layer(305,189,"Positions",obj_position);
-	    position[20] = instance_create_layer(416,608,"Positions",obj_position);
+		if(round_8){
+			position[14] = instance_create_layer(500,181,"Positions",obj_position);
+			position[15] = instance_create_layer(427,253,"Positions",obj_position);
+			position[16] = instance_create_layer(326,289,"Positions",obj_position);
+			position[17] = instance_create_layer(343,382,"Positions",obj_position);
+			position[18] = instance_create_layer(401,153,"Positions",obj_position);
+			position[19] = instance_create_layer(305,189,"Positions",obj_position);
+			position[20] = instance_create_layer(416,608,"Positions",obj_position);
+			for(var i = 0; i <=20; i++){
+				with(position[i]){
+					new_position = true;
+				}
+			}
+			round_8 = false;
+		}
 	}
 	
 	switch(global.round){

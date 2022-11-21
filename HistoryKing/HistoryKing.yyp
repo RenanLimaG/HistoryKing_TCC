@@ -65,6 +65,7 @@
     {"id":{"name":"scribble_anim_wobble","path":"scripts/scribble_anim_wobble/scribble_anim_wobble.yy",},"order":9,},
     {"id":{"name":"__scribble_gen_3_devanagari","path":"scripts/__scribble_gen_3_devanagari/__scribble_gen_3_devanagari.yy",},"order":3,},
     {"id":{"name":"obj_evento","path":"objects/obj_evento/obj_evento.yy",},"order":7,},
+    {"id":{"name":"spr_position_new","path":"sprites/spr_position_new/spr_position_new.yy",},"order":8,},
     {"id":{"name":"btn_voltar","path":"objects/btn_voltar/btn_voltar.yy",},"order":0,},
     {"id":{"name":"scr_xy_positions","path":"scripts/scr_xy_positions/scr_xy_positions.yy",},"order":4,},
     {"id":{"name":"obj_quiz_resp","path":"objects/obj_quiz_resp/obj_quiz_resp.yy",},"order":4,},
