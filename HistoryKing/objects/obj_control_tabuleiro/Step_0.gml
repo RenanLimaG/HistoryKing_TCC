@@ -22,6 +22,7 @@ switch(global.game_state){
 		player3 = instance_create_layer(802,300,"Instances",obj_player3);
 		player4 = instance_create_layer(802,333,"Instances",obj_player4);
 	}
+	layer_set_visible("cen_precolo", true);
 	global.game_state = state.startTurn;
 	break;
 	
@@ -40,6 +41,8 @@ switch(global.game_state){
 					new_position = true;
 				}
 			}
+			layer_set_visible("cen_precolo", false);
+			layer_set_visible("cen_coloniza", true);
 			round_4 = false;
 		}
 		break;
@@ -57,6 +60,8 @@ switch(global.game_state){
 					new_position = true;
 				}
 			}
+			layer_set_visible("cen_coloniza", false);
+			layer_set_visible("cen_imperial", true);
 			round_8 = false;
 		}
 	}
