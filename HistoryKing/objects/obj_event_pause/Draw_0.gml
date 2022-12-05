@@ -63,7 +63,9 @@ if(event_final){
 	pauseSurfBuffer = buffer_create(resW * resH * 4, buffer_fixed, 1);
 	buffer_get_surface(pauseSurfBuffer, pauseSurf, 0);
 	
-	global.text_vitoria.draw(640,360);
+	if(!instance_exists(obj_evento)){
+		instance_create_layer(640, 360, "Instances", obj_vitoria);	
+	}
 	
 	if(keyboard_check_pressed(vk_space))
 	{
